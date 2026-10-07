@@ -1,0 +1,9 @@
+event,probability,numerator,denominator,condition
+Initial seven contain a Basic,0.6008795492323131,5801596,9655173,unconditional
+Initial seven require a mulligan,0.39912045076768693,3853577,9655173,unconditional
+Finizen in accepted seven,0.6648580838789878,1928619,2900798,given Basic >=1
+Finizen and Dratini in accepted seven,0.13236009539443974,3839499,29007980,given Basic >=1
+Finizen and Water in accepted seven,0.3321213679821897,963417,2900798,given Basic >=1
+"Finizen, Dratini, Water in accepted seven",0.05884294597555569,341383,5801596,given Basic >=1
+Poffin in accepted seven,0.37079031356199227,5377939,14503990,given Basic >=1
+At least two Palafin ex in accepted seven,0.05217764215226293,378392,7251995,given Basic >=1

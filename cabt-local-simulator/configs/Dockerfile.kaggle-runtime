@@ -1,0 +1,10 @@
+FROM python:3.11-slim
+
+COPY kaggle-deps-amd64/ /deps/
+COPY kaggle_environments-1.32.7-py3-none-any.whl /wheels/kaggle_environments-1.32.7-py3-none-any.whl
+
+RUN python -m pip install --no-cache-dir --no-index --find-links=/deps jsonschema requests \
+    && python -m pip install --no-cache-dir --no-deps /wheels/kaggle_environments-1.32.7-py3-none-any.whl \
+    && python -c "import kaggle_environments; assert 'cabt' in kaggle_environments.environments"
+
+ENV PYTHONUNBUFFERED=1

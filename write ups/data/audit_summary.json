@@ -1,0 +1,763 @@
+{
+  "generated_utc": "2026-09-10T02:24:58.224431+00:00",
+  "scope": "Retrospective saved records; no new games or agent changes",
+  "summary_count": 41,
+  "nonempty_episode_count": 40,
+  "decisions": 5943,
+  "known_winner_summaries": 39,
+  "no_winner_summaries": [
+    "match-1788312731505",
+    "match-1788312754800"
+  ],
+  "reported_errors": 0,
+  "terminations": {
+    "terminal observation": 41
+  },
+  "selection_status": {
+    "valid": 5943
+  },
+  "invalid_sidecars_present": 41,
+  "raw_invalid_records": 0,
+  "agent_decisions": {
+    "import:Palaking-1.25-imported-3d1baed5d6dd": 323,
+    "import:submission-11.5-31afb1fb9808": 9,
+    "import:submission-palfingon-1.1-900dd44865a7": 355,
+    "import:submission-palfingon-1.2-870a2330cec4": 831,
+    "import:submission-palfingon-1.3-c473bc1209b2": 186,
+    "random": 1143,
+    "workspace:NsZoroark": 70,
+    "workspace:Palaking": 1566,
+    "workspace:hydreigen": 151,
+    "workspace:palfingon": 1309
+  },
+  "trace_decisions_by_agent": {
+    "import:Palaking-1.25-imported-3d1baed5d6dd": 205,
+    "import:submission-11.5-31afb1fb9808": 9,
+    "import:submission-palfingon-1.1-900dd44865a7": 355,
+    "import:submission-palfingon-1.2-870a2330cec4": 831,
+    "import:submission-palfingon-1.3-c473bc1209b2": 186,
+    "random": 0,
+    "workspace:NsZoroark": 0,
+    "workspace:Palaking": 586,
+    "workspace:hydreigen": 151,
+    "workspace:palfingon": 1309
+  },
+  "observed_main_turns": 1157,
+  "pass_only_turns": 411,
+  "attack_turns": 233,
+  "unsummarized_episodes": [
+    {
+      "match_id": "battle26_15-36_2026-09-09_pal_vs_pal",
+      "recorded_decisions": 0
+    },
+    {
+      "match_id": "match-1788307035049",
+      "recorded_decisions": 0
+    },
+    {
+      "match_id": "match-1788307048197",
+      "recorded_decisions": 0
+    },
+    {
+      "match_id": "match-1788310550225",
+      "recorded_decisions": 0
+    },
+    {
+      "match_id": "match-1788312186809",
+      "recorded_decisions": 0
+    }
+  ],
+  "integrity_issues": [],
+  "battle15_end_selections_turns12_26": 15,
+  "imported_1_3_vs_1_2": {
+    "matches": [
+      {
+        "match_id": "battle31_15-50_2026-09-09_sub_vs_sub",
+        "winner": 0,
+        "first_player": 0,
+        "engine_turns": 5,
+        "recorded_decisions": 34,
+        "pass_only_turns": 0,
+        "seat_0_max_pass_streak": 0,
+        "seat_1_max_pass_streak": 0,
+        "version_1_3_seat": 0
+      },
+      {
+        "match_id": "battle32_15-56_2026-09-09_sub_vs_sub",
+        "winner": 1,
+        "first_player": 0,
+        "engine_turns": 18,
+        "recorded_decisions": 143,
+        "pass_only_turns": 0,
+        "seat_0_max_pass_streak": 0,
+        "seat_1_max_pass_streak": 0,
+        "version_1_3_seat": 0
+      },
+      {
+        "match_id": "battle33_16-04_2026-09-09_sub_vs_sub",
+        "winner": 1,
+        "first_player": 0,
+        "engine_turns": 20,
+        "recorded_decisions": 152,
+        "pass_only_turns": 0,
+        "seat_0_max_pass_streak": 0,
+        "seat_1_max_pass_streak": 0,
+        "version_1_3_seat": 0
+      }
+    ],
+    "wins_1_3": 1,
+    "decided_games": 3,
+    "wilson95": [
+      0.06149194472039621,
+      0.7923403991979522
+    ],
+    "sampling_warning": "Convenience sample; inspect seat and first-player columns; not a paired experiment"
+  },
+  "input_manifest": [
+    {
+      "path": "cabt-local-simulator/data/episodes/battle10_00-10_2026-09-07_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle10_00-10_2026-09-07_pal_vs_pal.jsonl",
+      "bytes": 4131170,
+      "sha256": "72bb877317db6c554bb533bf4c977532360502011dab1f9b27d66b7c647657dd"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle11_00-14_2026-09-07_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle11_00-14_2026-09-07_pal_vs_pal.jsonl",
+      "bytes": 3738815,
+      "sha256": "f34212898deb988a80fe6fbe4874eb168d58d2c61ad018ec40516e2e21d512f2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle12_01-04_2026-09-07_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle12_01-04_2026-09-07_pal_vs_pal.jsonl",
+      "bytes": 5188995,
+      "sha256": "9e346b317cd1e43c822ca3fed1e725ac6797d0f06a3cfde01077ae8b3e015dca"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle13_00-49_2026-09-08_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle13_00-49_2026-09-08_pal_vs_pal.jsonl",
+      "bytes": 2229957,
+      "sha256": "640b36fe0390ba1fa5f1cf9666c6cfb89f7f79f21b353e371586372174b79bc8"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle14_00-51_2026-09-08_pal_vs_ran.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle14_00-51_2026-09-08_pal_vs_ran.jsonl",
+      "bytes": 4519532,
+      "sha256": "ac46d4aefd69250905ec1014ece82663821bbccfd36bb0e7c79262373b3fc6a7"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle15_01-14_2026-09-08_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle15_01-14_2026-09-08_sub_vs_sub.jsonl",
+      "bytes": 5277399,
+      "sha256": "f799093c5426bc348346c4c40ec574fdc068ea6f408aca6bc68b883c2a1cdccd"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle16_20-39_2026-09-08_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle16_20-39_2026-09-08_pal_vs_pal.jsonl",
+      "bytes": 3247902,
+      "sha256": "88994086fd9d7fce32342dfb6392a3a6cb15c31ea561c03b491725d3e79ef654"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle17_20-39_2026-09-08_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle17_20-39_2026-09-08_pal_vs_pal.jsonl",
+      "bytes": 3921985,
+      "sha256": "6e24b33796b507f4e054d10919551a1266dce0cd94b46b43f680e88741ea2e32"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle18_20-42_2026-09-08_pal_vs_ran.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle18_20-42_2026-09-08_pal_vs_ran.jsonl",
+      "bytes": 2031305,
+      "sha256": "f4b426cb8cf4c8c06dcf3c6bc060bcc46913e3992fd2a3a8a56abb70d2e8e863"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle19_09-35_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle19_09-35_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 3187072,
+      "sha256": "d1d751310a5763fa18288067579ff6e42560ca1b015ad3a257e00507df2297ff"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle1_15-43_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle1_15-43_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 2447868,
+      "sha256": "d614159d2c13b658c4c19e6e040fdec383c5216ede281ff3f8c081f125603892"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle20_10-13_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle20_10-13_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 2570506,
+      "sha256": "a0d903b859cf66bd2727037810f60f963ff8b2dde662fe4b3bdc81c5a40db0c9"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle21_10-39_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle21_10-39_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 1215474,
+      "sha256": "49689b3c782dc21c319110d89ad094b91ea2bae0e23c3c7eae39b53115650218"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle22_10-39_2026-09-09_sub_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle22_10-39_2026-09-09_sub_vs_pal.jsonl",
+      "bytes": 589738,
+      "sha256": "27a8364a96eecec00bb4e4b542788c03c4c70685c88c932e18a2517c154a174f"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle23_10-40_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle23_10-40_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 1503355,
+      "sha256": "cc63fddffd18c96fddd70ce83d5c405dea10b5c3e21ad28142f52623b71f3b41"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle24_11-21_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle24_11-21_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 4570430,
+      "sha256": "677c0204dae5a95c8430733ad5ef06e731a44ab322934ae71ff0d08d0a634ca4"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle25_15-01_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle25_15-01_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 4735690,
+      "sha256": "544929989e4897c0a297edbedd67f821ed6fd96ad77f7bb17e9128e6b4c16d05"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle26_15-36_2026-09-09_pal_vs_pal.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle27_15-36_2026-09-09_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle27_15-36_2026-09-09_pal_vs_pal.jsonl",
+      "bytes": 355186,
+      "sha256": "02d855bdefc44cbe2653acf4187a60c9a3451ab695bbfd8b9f93100e77b6d594"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle28_15-36_2026-09-09_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle28_15-36_2026-09-09_pal_vs_pal.jsonl",
+      "bytes": 1786586,
+      "sha256": "12d586e019dc37d9c92bd301a9c38ef9b2d061a0ec45b438eaa6bcba74aa63a2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle29_15-37_2026-09-09_pal_vs_ran.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle29_15-37_2026-09-09_pal_vs_ran.jsonl",
+      "bytes": 3363866,
+      "sha256": "4bb690edeac5fc32fc0aa3e1f52fd0a730b24ba809f48061d7a01bceaea18887"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle2_16-29_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle2_16-29_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 8612191,
+      "sha256": "79e22e582ac34e304ed3632d3a3d4dd1b58a8d641e9d9bec103cd88fbbe759cc"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle30_15-37_2026-09-09_ran_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle30_15-37_2026-09-09_ran_vs_pal.jsonl",
+      "bytes": 2038491,
+      "sha256": "88df175ee4318013de5d2f9a945468615f7a54371d57de54602ad7b9fc987a80"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle31_15-50_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle31_15-50_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 391308,
+      "sha256": "6ce52ff56d7f5a7d9c198c7e987782948327c54eaae7d17a2af361eb5ba00c2c"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle32_15-56_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle32_15-56_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 2998931,
+      "sha256": "3b320cd8d22c42d804310071013c3fb29968a7bcf267fea99c7f3b0066fe3135"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle33_16-04_2026-09-09_sub_vs_sub.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle33_16-04_2026-09-09_sub_vs_sub.jsonl",
+      "bytes": 3387448,
+      "sha256": "bbd735b99f02aada26e04287e185d4bf222806786e2cf3e2d8df4f586de4c9e0"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle3_16-31_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle3_16-31_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 2901194,
+      "sha256": "2efafb41fabe9ca67252817c0e66725ef0041c01de2c35b2ce07dba0adbbf655"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle4_16-33_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle4_16-33_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 3398846,
+      "sha256": "2517b2688585de427efd675516ebe2ea24315c7628b76b26a5353c80cbb0f8d2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle5_16-54_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle5_16-54_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 6699340,
+      "sha256": "309d153736810668c61dde1b4ec9e40a1b56bf3508735ddf1da5d62e1a0fe690"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle6_17-10_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle6_17-10_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 2168865,
+      "sha256": "69577a394cd2960110caac3e83b56f4042aff77c3bf0a71db65a2899ce7ac4a8"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle7_17-12_2026-09-02_hyd_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle7_17-12_2026-09-02_hyd_vs_pal.jsonl",
+      "bytes": 9156961,
+      "sha256": "38cfcd4ea3d09f5ade12fea302ad2fde00b3eb56e1de8042496e402c51a9dd3b"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle8_17-21_2026-09-02_pal_vs_pal.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle8_17-21_2026-09-02_pal_vs_pal.jsonl",
+      "bytes": 2601352,
+      "sha256": "cb497524d1e2ccbb4d742de3673406ad3432d61cf671fa966bb38f65ccb693e2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle9_00-10_2026-09-07_pal_vs_ran.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle9_00-10_2026-09-07_pal_vs_ran.jsonl",
+      "bytes": 4057603,
+      "sha256": "3dba0848a14b0e273f3d684e668a71104f14811e77423ace29bc4a31d92a0448"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788307035049.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788307048197.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788310550225.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312186809.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312731505.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312731505.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312754800.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312754800.jsonl",
+      "bytes": 2673078,
+      "sha256": "e70b4f6ca0bc9aa6d6c077730f1e8e443849d09e723ce8ff5f55c9fa5a19ee8a"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312934760.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312934760.jsonl",
+      "bytes": 5098865,
+      "sha256": "56710f86f13c96253c8ba9c2f091883175cb8d6ef7706e5398c042ab139547ca"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312959976.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312959976.jsonl",
+      "bytes": 4677992,
+      "sha256": "3cab0f21e855577c37538c74560a15dc5712b3004ce4c10b9d0f09c2bafdb64f"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313084390.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313084390.jsonl",
+      "bytes": 6596755,
+      "sha256": "94766f38a54478dd7b6d214d13853e299dc7eda84fe385e03b739cf114f489bc"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313095904.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313095904.jsonl",
+      "bytes": 3133851,
+      "sha256": "6055724920cabcf5f72ca181318a2efeabdd0b2cb7e9948b4d4e8591e5d6bbc1"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313394879.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313394879.jsonl",
+      "bytes": 3313444,
+      "sha256": "3f53bf596c799373157e71713d004c219844ea218b154dd7c7d1fe990f3d1a6c"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788367830903.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788367830903.jsonl",
+      "bytes": 1476793,
+      "sha256": "e786ffd6a1eaaebdc278eafb15b5f8dc348f22af6180339a0d6bc11dad76f80a"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788375547750.invalid.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788375547750.jsonl",
+      "bytes": 1707024,
+      "sha256": "fc8932cc3315def5373b5d7c4a618633bb911b230b8a1e939d84d1257b9aca73"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle10_00-10_2026-09-07_pal_vs_pal.json",
+      "bytes": 414,
+      "sha256": "d212e06b78f80fb4d41498e77663eadb6ae0b978e494064b73164dc33306d76c"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle11_00-14_2026-09-07_pal_vs_pal.json",
+      "bytes": 550,
+      "sha256": "b542b864c19939e11125e1ae31d04b954fb26fe8af065044f73c0aa4a28df522"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle12_01-04_2026-09-07_pal_vs_pal.json",
+      "bytes": 550,
+      "sha256": "c72a77fc076e752a75e0122e746a56098ebd71dd00fd0a6211678ffcc6b2850e"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle13_00-49_2026-09-08_pal_vs_pal.json",
+      "bytes": 550,
+      "sha256": "6161d77b65db9abc5a934a473e40ada2fd3934b238ac62b1dcbf5a4438539643"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle14_00-51_2026-09-08_pal_vs_ran.json",
+      "bytes": 550,
+      "sha256": "0de2d98bdab51eacb697b02c4f9ece405657ab9734c16838f2617c8204328d05"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle15_01-14_2026-09-08_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "0501ca8ecd27fc21f8a68dd83f93b898b2c4a5c131d120b5ca65c47a8bf585dd"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle16_20-39_2026-09-08_pal_vs_pal.json",
+      "bytes": 550,
+      "sha256": "0d3162d30121948870c12e8ca530f870f2da64f8de775ea52dbaa83afdad0813"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle17_20-39_2026-09-08_pal_vs_pal.json",
+      "bytes": 550,
+      "sha256": "effd8cc59e5c6aaaa121ee2482f289c2a0aa090f51fd8d3496b59d9cd8f0e785"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle18_20-42_2026-09-08_pal_vs_ran.json",
+      "bytes": 550,
+      "sha256": "7eb6185a257867c3df93d039755fefb4f646035fde98342b7caa2a873a833d7b"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle19_09-35_2026-09-09_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "555a60a192bee185da942bb575e79adcabc744584311a93a5694d1f1392f2901"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle1_15-43_2026-09-02_pal_vs_pal.json",
+      "bytes": 411,
+      "sha256": "901a86f686185511e4a031cc6da73d62f95010856c4115516e7e472c40ccc4e4"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle20_10-13_2026-09-09_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "d29abf8932f2f037613b93336b0eb231c3d18e6a994ae6cd41f0db48bfbe6193"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle21_10-39_2026-09-09_sub_vs_sub.json",
+      "bytes": 549,
+      "sha256": "9dcc09296d65d41304a2ee47ea9c7b9b4f37d38c1cb1f0910ad3eaf875ddd80c"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle22_10-39_2026-09-09_sub_vs_pal.json",
+      "bytes": 548,
+      "sha256": "9f1d5a954a5c11eb05a4c79ae5b16dc5143bd944bc09d6ad733854db5a1889c6"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle23_10-40_2026-09-09_sub_vs_sub.json",
+      "bytes": 549,
+      "sha256": "6ea388d3c82eb5b69ee5ea147fb53afef02097747f9b90c63837edd517b47a8a"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle24_11-21_2026-09-09_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "c915101249b6bca128259fd09fc7f953b4403e9f541a3c294971187b48c950f2"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle25_15-01_2026-09-09_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "53e61535d18694950e7964466dbb545b2d319e022169f8968a103dc66aa6ed2c"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle27_15-36_2026-09-09_pal_vs_pal.json",
+      "bytes": 548,
+      "sha256": "5353db22bd33ad9077a01b15c1c604b4e3ad6fbc023e67e7f25031f7c61d0d9b"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle28_15-36_2026-09-09_pal_vs_pal.json",
+      "bytes": 550,
+      "sha256": "2bf0bfa7bae8307e79f14055fe83c639c4d8f8f0948ff3c53a2610fa37f3b19b"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle29_15-37_2026-09-09_pal_vs_ran.json",
+      "bytes": 550,
+      "sha256": "80469ccffccbba04a749c602eaa52a208f296da4adcfe01e4d7c3e2ef27f903d"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle2_16-29_2026-09-02_pal_vs_pal.json",
+      "bytes": 411,
+      "sha256": "e226653f9687917fec3e388dccbea12c314798af53ca95d7c561a884dc6e0e1f"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle30_15-37_2026-09-09_ran_vs_pal.json",
+      "bytes": 550,
+      "sha256": "d57049430aec7bc45310971e7e9b7652bd3ec7fa0191227067ca9c757292f756"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle31_15-50_2026-09-09_sub_vs_sub.json",
+      "bytes": 548,
+      "sha256": "65214f193d62d54bf82a4905e095256cd8dfe340c5fe2037f16a63efc7202ec3"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle32_15-56_2026-09-09_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "8cd09ca315af909202b1a431ad0096dbf4b9a0c67e1b3573da1a735e96d93078"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle33_16-04_2026-09-09_sub_vs_sub.json",
+      "bytes": 550,
+      "sha256": "3d9f57dc5146dabc58823fc805999e7250f45f848f73f84cce20001d0c8d9735"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle3_16-31_2026-09-02_pal_vs_pal.json",
+      "bytes": 411,
+      "sha256": "cc2a8fb8305b3fe4ba234f8096c60306d0f5d65388a5d87f57286ad878208682"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle4_16-33_2026-09-02_pal_vs_pal.json",
+      "bytes": 411,
+      "sha256": "e7dca2cfeded212a6c78620a108cde507720a512e16095dfdc64aee5a96acd83"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle5_16-54_2026-09-02_pal_vs_pal.json",
+      "bytes": 411,
+      "sha256": "6b8b46612dfd9362a7fde3e60afb883037a1e9d4f2190b3d8449471393dcdf48"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle6_17-10_2026-09-02_pal_vs_pal.json",
+      "bytes": 546,
+      "sha256": "2a3dbb6ac50ad96d2dd2c54456ff4044560f34a6d24620f6c582c631630c949a"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle7_17-12_2026-09-02_hyd_vs_pal.json",
+      "bytes": 547,
+      "sha256": "571d3d70cc41ed133bafbf56ec45221c62a6806505a847d4490aa12a0a8f71a7"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle8_17-21_2026-09-02_pal_vs_pal.json",
+      "bytes": 547,
+      "sha256": "2e9685a5d0906f1e1f124ce7f64d7bd631a1f0b2bbdbcb10c54894d666074bfe"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle9_00-10_2026-09-07_pal_vs_ran.json",
+      "bytes": 411,
+      "sha256": "2dfd4978fcd39d1cdffb67a09a4bfd0ea32b732029abd5431b102a40e655b677"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312731505.json",
+      "bytes": 394,
+      "sha256": "94cb6f3f898bc79497e8ad87b4b954e61af91b548f208a010d7b0b3365494457"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312754800.json",
+      "bytes": 397,
+      "sha256": "8e38f7b698c7bdc1b87d81b41c389215f6e93905b223327638148f909ece99e8"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312934760.json",
+      "bytes": 499,
+      "sha256": "8133e7b5447793db279858ff6aa453a4da784f6551c3251a2ef16e628cf67482"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312959976.json",
+      "bytes": 499,
+      "sha256": "42450f588a8e2057f2ec10b98a8be867f73468c90d6400acc27d758d0ce61561"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788313084390.json",
+      "bytes": 499,
+      "sha256": "67770a92ad6914a566f0f8ccc1e689afbb347910a02a2c22ddf66136a233fef5"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788313095904.json",
+      "bytes": 499,
+      "sha256": "0d32b095ee82834e9a4617e708169745a401259f131db5d208bb11414e9115d6"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788313394879.json",
+      "bytes": 499,
+      "sha256": "13ffb70b6469a607641c36c383f04d10cae24c2e25b4e585092e52177d500bab"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788367830903.json",
+      "bytes": 498,
+      "sha256": "262d3c01eee655da367b059ff6594bda46e48f873fbb21df0633727e24b946e1"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788375547750.json",
+      "bytes": 499,
+      "sha256": "65bead79da6984e4c1e1ed52f412490fbfec6346d7d13b6cfd23a9e83c21661f"
+    },
+    {
+      "path": "write ups/analyze_writeup_data.py",
+      "bytes": 11613,
+      "sha256": "9d563ab44f49bc401e367fb1b45d9062d43d51165daa5dc3a8f2202cd7d8c969"
+    }
+  ]
+}

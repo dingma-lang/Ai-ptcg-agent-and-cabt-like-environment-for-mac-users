@@ -1,0 +1,21 @@
+# Example only. This has not been verified in this workspace because Docker is
+# not installed here. Prefer the official Kaggle competition runtime when
+# possible.
+FROM --platform=linux/amd64 python:3.10-slim
+
+WORKDIR /work
+COPY . /work
+
+RUN python -m pip install --upgrade pip && \
+    python -m pip install -e .
+
+# Place the official competition cg/ package where CABT_CG_PATH points.
+# Example:
+#   /work/official/cg/api.py
+#   /work/official/cg/game.py
+#   /work/official/cg/sim.py
+#   /work/official/cg/libcg.so
+ENV CABT_CG_PATH=/work/official
+
+CMD ["python", "-m", "cabt_local", "env"]
+

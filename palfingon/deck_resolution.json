@@ -1,0 +1,216 @@
+{
+  "deck_name": "palfingon",
+  "ready": true,
+  "requested_count": 60,
+  "cards": [
+    {
+      "quantity": 4,
+      "name": "Palafin ex",
+      "set": "PRE",
+      "number": "151",
+      "card_id": 107,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 1,
+      "name": "Tatsugiri",
+      "set": "TWM",
+      "number": "186",
+      "card_id": 122,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 3,
+      "name": "Palafin",
+      "set": "SVALT",
+      "number": "81",
+      "card_id": 106,
+      "status": "CONFIRMED LOCAL ID"
+    },
+    {
+      "quantity": 1,
+      "name": "Mega Dragonite ex",
+      "set": "ASC",
+      "number": "152",
+      "card_id": 904,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 2,
+      "name": "Dratini",
+      "set": "ASC",
+      "number": "150",
+      "card_id": 902,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 2,
+      "name": "Dragonair",
+      "set": "ASC",
+      "number": "151",
+      "card_id": 903,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 4,
+      "name": "Finizen",
+      "set": "TWM",
+      "number": "59",
+      "card_id": 105,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 1,
+      "name": "Mega Dragonite ex",
+      "set": "ASC",
+      "number": "290",
+      "card_id": 904,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 1,
+      "name": "Palafin",
+      "set": "TEF",
+      "number": "49",
+      "card_id": 51,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 3,
+      "name": "Surfing Beach",
+      "set": "MEG",
+      "number": "129",
+      "card_id": 1262,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 1,
+      "name": "Battle Cage",
+      "set": "PFL",
+      "number": "116",
+      "card_id": 1264,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 4,
+      "name": "Pok\u00e9 Pad",
+      "set": "ASC",
+      "number": "198",
+      "card_id": 1152,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 2,
+      "name": "Boss's Orders",
+      "set": "PAL",
+      "number": "265",
+      "card_id": 1182,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 1,
+      "name": "Energy Retrieval",
+      "set": "SVI",
+      "number": "171",
+      "card_id": 1118,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 2,
+      "name": "Night Stretcher",
+      "set": "SSP",
+      "number": "251",
+      "card_id": 1097,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 2,
+      "name": "Air Balloon",
+      "set": "SSH",
+      "number": "213",
+      "card_id": 1174,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 1,
+      "name": "Hilda",
+      "set": "WHT",
+      "number": "171",
+      "card_id": 1225,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 3,
+      "name": "Team Rocket's Petrel",
+      "set": "ASC",
+      "number": "207",
+      "card_id": 1219,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 4,
+      "name": "Buddy-Buddy Poffin",
+      "set": "TWM",
+      "number": "223",
+      "card_id": 1086,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 2,
+      "name": "Crispin",
+      "set": "PRE",
+      "number": "171",
+      "card_id": 1198,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 1,
+      "name": "Secret Box",
+      "set": "TWM",
+      "number": "163",
+      "card_id": 1092,
+      "status": "EXACT"
+    },
+    {
+      "quantity": 1,
+      "name": "Judge",
+      "set": "LOT",
+      "number": "209",
+      "card_id": 1213,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 4,
+      "name": "Lillie's Determination",
+      "set": "MEG",
+      "number": "184",
+      "card_id": 1227,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 1,
+      "name": "Switch",
+      "set": "MEW",
+      "number": "206",
+      "card_id": 1123,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 3,
+      "name": "Basic {L} Energy",
+      "set": "SVI",
+      "number": "257",
+      "card_id": 4,
+      "status": "SAME-NAME FALLBACK"
+    },
+    {
+      "quantity": 6,
+      "name": "Basic {W} Energy",
+      "set": "PAL",
+      "number": "279",
+      "card_id": 3,
+      "status": "SAME-NAME FALLBACK"
+    }
+  ],
+  "errors": []
+}

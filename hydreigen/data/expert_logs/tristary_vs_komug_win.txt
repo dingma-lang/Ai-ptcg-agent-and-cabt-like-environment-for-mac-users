@@ -1,0 +1,47 @@
+Expert pilot trajectory: Tristary vs Komug win
+
+This file stores the reusable strategic trajectory from the attached expert
+battle log. The agent must generalize the lessons rather than replay this exact
+game.
+
+Opening:
+- Opening hand included Basic Psychic Energy, Ultra Ball, Toxel, Secret Box,
+  Zweilous, Basic Darkness Energy, and Toxtricity.
+- Toxel was placed Active and Deino was benched immediately.
+- Secret Box was used early, discarding Ultra Ball, Basic Darkness Energy, and
+  Toxtricity because the payoff created a stronger setup line.
+- Secret Box searched Buddy-Buddy Poffin, Air Balloon, Lillie's Determination,
+  and Battle Cage.
+- Buddy-Buddy Poffin was played immediately and found Deino plus Gastly.
+- Air Balloon was attached to Gastly as a pivot.
+- Psychic Energy was attached to Deino for the Hydreigon line.
+
+Post-KO recovery:
+- After Toxel was Knocked Out, Fezandipiti ex used Flip the Script immediately.
+- Gastly evolved to Haunter.
+- Sacred Ash recovered Toxel and Toxtricity.
+- Buddy-Buddy Poffin rebuilt Bench by finding Toxel.
+- Darkness Energy was attached to Haunter.
+- Team Rocket's Petrel was used after board rebuilding.
+
+Mega Gengar transition:
+- Haunter evolved to Mega Gengar ex.
+- Toxel evolved to Toxtricity.
+- Air Balloon was attached to Toxtricity.
+- Toxtricity used Sinister Surge to attach Darkness Energy to Mega Gengar ex.
+- Toxtricity retreated, Mega Gengar ex became Active, and Void Gale hit for 230.
+- Void Gale moved Darkness Energy to Hydreigon ex on the Bench.
+
+Hydreigon transition:
+- Psychic Energy and Darkness acceleration were used to prepare Hydreigon ex.
+- Mega Gengar retreated and Hydreigon ex became Active.
+- Hydreigon ex used Obsidian to KO the Active Decidueye ex and two Benched
+  Pokemon, taking a four-Prize swing.
+
+Late rebuild:
+- After Hydreigon ex was Knocked Out, Fezandipiti ex drew three cards.
+- Battle Cage replaced the opponent's Stadium.
+- Dawn, Rare Candy, Special Red Card, Pecharunt ex, Energy Recycler, Night
+  Stretcher, Toxtricity, and manual attachment were used to rebuild the final
+  Hydreigon ex attack.
+- Final Obsidian took the remaining Prizes.

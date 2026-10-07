@@ -1,0 +1,8434 @@
+{
+  "design": "Independent saved-observation probes; memory reset each case, metadata caches retained; first call may initialize metadata; not full games",
+  "repeats": 3,
+  "configurations": [
+    {
+      "version": "1.1",
+      "mode": "full",
+      "calls": 87,
+      "valid_calls": 87,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "nondeterministic_windows": 0,
+      "expert_matches": 2,
+      "regression_matches": 2,
+      "reviewed_windows": 14,
+      "end_windows": 15,
+      "end_still_selected": 15,
+      "median_ms": 50.974417,
+      "max_ms": 148.184375
+    },
+    {
+      "version": "1.2",
+      "mode": "full",
+      "calls": 87,
+      "valid_calls": 87,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "nondeterministic_windows": 0,
+      "expert_matches": 0,
+      "regression_matches": 0,
+      "reviewed_windows": 14,
+      "end_windows": 15,
+      "end_still_selected": 0,
+      "median_ms": 35.917042,
+      "max_ms": 89.488708
+    },
+    {
+      "version": "1.3",
+      "mode": "full",
+      "calls": 87,
+      "valid_calls": 87,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "nondeterministic_windows": 0,
+      "expert_matches": 13,
+      "regression_matches": 14,
+      "reviewed_windows": 14,
+      "end_windows": 15,
+      "end_still_selected": 0,
+      "median_ms": 35.878542,
+      "max_ms": 91.153333
+    },
+    {
+      "version": "1.3",
+      "mode": "without_before_commit",
+      "calls": 87,
+      "valid_calls": 87,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "nondeterministic_windows": 0,
+      "expert_matches": 8,
+      "regression_matches": 8,
+      "reviewed_windows": 14,
+      "end_windows": 15,
+      "end_still_selected": 0,
+      "median_ms": 36.223292,
+      "max_ms": 90.96375
+    }
+  ],
+  "records": [
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 55.405625,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.556292,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.3165,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 14.0815,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 12.412584,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 12.141875,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 62.192375,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 63.492583,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.915208,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 11.766459,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 12.578875,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 12.125166,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.975709,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.770625,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.7955,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 59.126625,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 57.772709,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 57.345625,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.541834,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.574833,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.734292,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 50.877125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 50.974417,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 50.718625,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 54.707833,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 54.82975,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 58.61025,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.053125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.069625,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.976125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 0,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.755375,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 1,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.518666,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 2,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.534125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.443834,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.301291,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.350875,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 0,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 94.390583,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 1,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 94.564708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 2,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 94.506958,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 0,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 25.22075,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 1,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 25.406708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 2,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 25.415417,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.039292,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.849125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.184458,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 0,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 54.380375,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 1,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 54.044292,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 2,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.606166,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.738584,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.95075,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.521666,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 122.467791,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 122.640916,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 122.318667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 0,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.856334,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 1,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.9615,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 2,
+      "choice": [
+        4
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.787209,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.002041,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 122.621792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.200083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 0,
+      "choice": [
+        5
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.461708,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 1,
+      "choice": [
+        5
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.055334,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 2,
+      "choice": [
+        5
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.369125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.166833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.098709,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.43325,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 0,
+      "choice": [
+        5
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.559542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 1,
+      "choice": [
+        5
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 44.101375,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 2,
+      "choice": [
+        5
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.640916,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.175125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.401833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.627125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 0,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 93.370208,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 1,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 93.284792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 2,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 93.368292,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.791833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.463458,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 123.54275,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 118.594167,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 118.509083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 118.501167,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 0,
+      "choice": [
+        13
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 148.184375,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 1,
+      "choice": [
+        13
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 147.97075,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 2,
+      "choice": [
+        13
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 148.099041,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 119.000791,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 119.131875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 119.317541,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.1",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 54.827458,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.430583,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.413083,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 8.3175,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.258042,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.294792,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.832083,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.4565,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.252292,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.074292,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.63325,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.722292,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.692208,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.698,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.733541,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.186166,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 60.417084,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 60.049125,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.639084,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.442833,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.448792,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 51.054584,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 50.82675,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        12
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 51.049292,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 54.826208,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 57.031125,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 55.070791,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.046875,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.080083,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.049291,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 0,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.380375,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 1,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.300167,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 2,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.404125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.74825,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.763417,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 3.749709,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 0,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 89.488708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 1,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 89.343375,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 2,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 89.41775,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 0,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 25.684792,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 1,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 25.791417,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 2,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 25.782208,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.147541,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.413083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.216792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 0,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 35.6485,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 1,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 35.917042,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 2,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 35.439291,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.644625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.677333,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.886125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.355417,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.204667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.305666,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.622458,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.708375,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.855875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.216417,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.375333,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.304542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.362125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.134375,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.597583,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.74275,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.546708,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.936541,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.491208,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.642083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.561167,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.949125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.972583,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.667167,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 0,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.11875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 1,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.186875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 2,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 39.960792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.721708,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.852625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.881833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.348375,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.260666,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.395333,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 0,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 47.957042,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 1,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 47.673083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 2,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 47.816166,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.77225,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.847083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.904208,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.2",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 55.929958,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.507417,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.458292,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 8.359,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.39,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.271084,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 63.143042,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 62.190625,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.943833,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.268083,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.078125,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.011541,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 6.048875,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 6.028042,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 6.036542,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 63.268958,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 62.262792,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 62.077791,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.762167,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.702416,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.735375,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.376208,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.374708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.179542,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.180916,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.508833,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 44.9805,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.472625,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.410042,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.636458,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.0535,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.121875,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.110125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.300917,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.350042,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.324584,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 90.904708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 91.153333,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 91.026958,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.771959,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.766542,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.593708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.509875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.468667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.463792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 0,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 35.872417,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 1,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 35.878542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 2,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 35.764166,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.996709,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.779041,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.906542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.637833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.48875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.60325,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.903291,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.803125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.917875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.517208,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.516667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.5855,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.462042,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.3235,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.338542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.917541,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.945708,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.82925,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 24.384292,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.805583,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.754833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.92725,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.930833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.898667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 0,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.67475,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 1,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.336833,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 2,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.280125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.085584,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.962584,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.13225,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.397625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.447667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.356917,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 0,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.1025,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 1,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.171041,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 2,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.139166,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 49.149667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.906041,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 49.010334,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "full"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 52.941416,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.504208,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 7,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 2.430791,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        14
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 8.247875,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.413834,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 12,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.317,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        3
+      ],
+      "selected_types": [
+        8
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 62.646125,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.9165,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 28,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.630625,
+      "expected_expert": [
+        8
+      ],
+      "expected_regression": [
+        8
+      ],
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.12975,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.182417,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 65,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.09125,
+      "expected_expert": [
+        1
+      ],
+      "expected_regression": [
+        1
+      ],
+      "recorded_choice": [
+        0
+      ],
+      "selected_types": [
+        7
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 0,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.958042,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 1,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.95325,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 79,
+      "repeat": 2,
+      "choice": [
+        1
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.904875,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 62.270333,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.065958,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 61.158416,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.762125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.658417,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 84,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.706,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        2
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.349,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.37475,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 53.566458,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.81025,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 43.444333,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 45.306167,
+      "expected_expert": [
+        7
+      ],
+      "expected_regression": [
+        7
+      ],
+      "recorded_choice": [
+        8
+      ],
+      "selected_types": [
+        12
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 0,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.978917,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 1,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 7.792291,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 104,
+      "repeat": 2,
+      "choice": [
+        0
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 5.673292,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 0,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.567,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 1,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 28.849375,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 131,
+      "repeat": 2,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 29.000708,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 0,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.4045,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 1,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.400208,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 133,
+      "repeat": 2,
+      "choice": [
+        2
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 4.351375,
+      "expected_expert": [
+        2
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        1
+      ],
+      "selected_types": [
+        3
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 0,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 90.96375,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 1,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 90.687667,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 136,
+      "repeat": 2,
+      "choice": [
+        14
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 90.856667,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        2
+      ],
+      "recorded_choice": [
+        14
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 0,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.290875,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 1,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.292125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle24_review",
+      "decision": 141,
+      "repeat": 2,
+      "choice": [
+        6
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 26.105125,
+      "expected_expert": [
+        0
+      ],
+      "expected_regression": [
+        0
+      ],
+      "recorded_choice": [
+        6
+      ],
+      "selected_types": [
+        13
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.569459,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.664542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 82,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.33075,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 0,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 36.223292,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 1,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 36.203542,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 83,
+      "repeat": 2,
+      "choice": [
+        9
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 36.199417,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        11
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.043708,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 15.980792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 87,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.401875,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.8215,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 42.833625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 88,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.489667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.123334,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.034417,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 90,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 16.009666,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        4
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.095458,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 42.641792,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 93,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 42.5455,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.849708,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.655167,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 95,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.643334,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.243959,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.342459,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 96,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.12925,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 0,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 24.10725,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 1,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 24.060209,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 97,
+      "repeat": 2,
+      "choice": [
+        3
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 23.966625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        5
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.231333,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.088958,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 98,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.226625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 0,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.580166,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 1,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.4285,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 99,
+      "repeat": 2,
+      "choice": [
+        7
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.543,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        9
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 0,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 40.847959,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 1,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.256083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 100,
+      "repeat": 2,
+      "choice": [
+        10
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 41.002,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        12
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.534667,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.451167,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 101,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.535917,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 0,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.463292,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 1,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.389125,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 102,
+      "repeat": 2,
+      "choice": [
+        11
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 48.342083,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        13
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 0,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 49.148625,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 1,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 49.2305,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    },
+    {
+      "dataset": "battle15_end_windows",
+      "decision": 103,
+      "repeat": 2,
+      "choice": [
+        8
+      ],
+      "valid": true,
+      "fallback_calls": 0,
+      "outer_errors": 0,
+      "agent_ms": 49.066,
+      "expected_expert": null,
+      "expected_regression": null,
+      "recorded_choice": [
+        10
+      ],
+      "selected_types": [
+        10
+      ],
+      "version": "1.3",
+      "mode": "without_before_commit"
+    }
+  ],
+  "sources": [
+    {
+      "name": "expert battle24 annotation attachment",
+      "sha256": "a8c5a61e2a532292bc8a940a9683353c93492445d6c8c48926756eac69eb2e81"
+    },
+    {
+      "name": "cabt-local-simulator/data/episodes/battle15_01-14_2026-09-08_sub_vs_sub.jsonl",
+      "sha256": "f799093c5426bc348346c4c40ec574fdc068ea6f408aca6bc68b883c2a1cdccd"
+    },
+    {
+      "name": "cabt-local-simulator/data/episodes/battle24_11-21_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "677c0204dae5a95c8430733ad5ef06e731a44ab322934ae71ff0d08d0a634ca4"
+    },
+    {
+      "name": "palfingon/submission palfingon 1.1.zip",
+      "sha256": "900dd44865a7745ca14f533168a2bfa2ca2cd98c65897cb0c9effc8c54a9918c"
+    },
+    {
+      "name": "palfingon/submission palfingon 1.2.zip",
+      "sha256": "870a2330cec4a820f74d114ba49180b06fec5576151e552b1fc210646a3ea2fa"
+    },
+    {
+      "name": "palfingon/submission palfingon 1.3.zip",
+      "sha256": "c473bc1209b253be6b0f6604905d81dbc2972e9b8b69b9ee457c572a73a97863"
+    },
+    {
+      "name": "palfingon/tests/fixtures/battle24_review.json",
+      "sha256": "cf778b735af4eb2aac3fc4a3f79a80450ef4acde56345cd361ea56401aa28195"
+    },
+    {
+      "name": "write ups/probe_archived_policies.py",
+      "sha256": "f951607a7491ca473dfe8255426f83577779f0831715049ec3a626dba2dcb92f"
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "design": "Descriptive historical analysis and exact deck combinatorics; no new games",
+  "decisions": 5943,
+  "deck_counts": {
+    "3": 6,
+    "4": 3,
+    "51": 1,
+    "105": 4,
+    "106": 3,
+    "107": 4,
+    "122": 1,
+    "902": 2,
+    "903": 2,
+    "904": 2,
+    "1086": 4,
+    "1092": 1,
+    "1097": 2,
+    "1118": 1,
+    "1123": 1,
+    "1152": 4,
+    "1174": 2,
+    "1182": 2,
+    "1198": 2,
+    "1213": 1,
+    "1219": 3,
+    "1225": 1,
+    "1227": 4,
+    "1262": 3,
+    "1264": 1
+  },
+  "basic_count": 7,
+  "cross_deck_openings": [
+    {
+      "workspace": "hydreigen",
+      "cards": 60,
+      "basics": 9,
+      "focal_basic": "Deino",
+      "focal_copies": 3,
+      "initial_mulligan_probability": 0.29977479429938747,
+      "focal_given_valid_probability": 0.450468750312001
+    },
+    {
+      "workspace": "Palaking",
+      "cards": 60,
+      "basics": 7,
+      "focal_basic": "Finizen",
+      "focal_copies": 4,
+      "initial_mulligan_probability": 0.39912045076768693,
+      "focal_given_valid_probability": 0.6648580838789878
+    },
+    {
+      "workspace": "NsZoroark",
+      "cards": 60,
+      "basics": 13,
+      "focal_basic": "N\u2019s Zorua",
+      "focal_copies": 4,
+      "initial_mulligan_probability": 0.1628440500237541,
+      "focal_given_valid_probability": 0.47721051944503445
+    },
+    {
+      "workspace": "palfingon",
+      "cards": 60,
+      "basics": 7,
+      "focal_basic": "Finizen",
+      "focal_copies": 4,
+      "initial_mulligan_probability": 0.39912045076768693,
+      "focal_given_valid_probability": 0.6648580838789878
+    }
+  ],
+  "opening_probabilities": [
+    {
+      "event": "Initial seven contain a Basic",
+      "probability": 0.6008795492323131,
+      "numerator": 5801596,
+      "denominator": 9655173,
+      "condition": "unconditional"
+    },
+    {
+      "event": "Initial seven require a mulligan",
+      "probability": 0.39912045076768693,
+      "numerator": 3853577,
+      "denominator": 9655173,
+      "condition": "unconditional"
+    },
+    {
+      "event": "Finizen in accepted seven",
+      "probability": 0.6648580838789878,
+      "numerator": 1928619,
+      "denominator": 2900798,
+      "condition": "given Basic >=1"
+    },
+    {
+      "event": "Finizen and Dratini in accepted seven",
+      "probability": 0.13236009539443974,
+      "numerator": 3839499,
+      "denominator": 29007980,
+      "condition": "given Basic >=1"
+    },
+    {
+      "event": "Finizen and Water in accepted seven",
+      "probability": 0.3321213679821897,
+      "numerator": 963417,
+      "denominator": 2900798,
+      "condition": "given Basic >=1"
+    },
+    {
+      "event": "Finizen, Dratini, Water in accepted seven",
+      "probability": 0.05884294597555569,
+      "numerator": 341383,
+      "denominator": 5801596,
+      "condition": "given Basic >=1"
+    },
+    {
+      "event": "Poffin in accepted seven",
+      "probability": 0.37079031356199227,
+      "numerator": 5377939,
+      "denominator": 14503990,
+      "condition": "given Basic >=1"
+    },
+    {
+      "event": "At least two Palafin ex in accepted seven",
+      "probability": 0.05217764215226293,
+      "numerator": 378392,
+      "denominator": 7251995,
+      "condition": "given Basic >=1"
+    }
+  ],
+  "opening_sample_size": 20,
+  "observed_opening_events": {
+    "finizen": 10,
+    "finizen_dratini": 4,
+    "finizen_water": 7,
+    "finizen_dratini_water": 3,
+    "poffin": 4,
+    "multiple_palafin_ex": 0
+  },
+  "trace_aggregates": [
+    {
+      "agent": "import:Palaking-1.25-imported-3d1baed5d6dd",
+      "decisions": 323,
+      "main_windows": 308,
+      "scorable_main_windows": 195,
+      "discordant": 195,
+      "discordant_end": 189,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "import:submission-11.5-31afb1fb9808",
+      "decisions": 9,
+      "main_windows": 8,
+      "scorable_main_windows": 8,
+      "discordant": 0,
+      "discordant_end": 0,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "import:submission-palfingon-1.1-900dd44865a7",
+      "decisions": 355,
+      "main_windows": 212,
+      "scorable_main_windows": 207,
+      "discordant": 73,
+      "discordant_end": 34,
+      "discordant_attack": 2
+    },
+    {
+      "agent": "import:submission-palfingon-1.2-870a2330cec4",
+      "decisions": 831,
+      "main_windows": 468,
+      "scorable_main_windows": 446,
+      "discordant": 131,
+      "discordant_end": 17,
+      "discordant_attack": 16
+    },
+    {
+      "agent": "import:submission-palfingon-1.3-c473bc1209b2",
+      "decisions": 186,
+      "main_windows": 103,
+      "scorable_main_windows": 99,
+      "discordant": 27,
+      "discordant_end": 5,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "random",
+      "decisions": 1143,
+      "main_windows": 738,
+      "scorable_main_windows": 0,
+      "discordant": 0,
+      "discordant_end": 0,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "workspace:NsZoroark",
+      "decisions": 70,
+      "main_windows": 45,
+      "scorable_main_windows": 0,
+      "discordant": 0,
+      "discordant_end": 0,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "workspace:Palaking",
+      "decisions": 1566,
+      "main_windows": 919,
+      "scorable_main_windows": 328,
+      "discordant": 71,
+      "discordant_end": 20,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "workspace:hydreigen",
+      "decisions": 151,
+      "main_windows": 87,
+      "scorable_main_windows": 77,
+      "discordant": 9,
+      "discordant_end": 0,
+      "discordant_attack": 0
+    },
+    {
+      "agent": "workspace:palfingon",
+      "decisions": 1309,
+      "main_windows": 744,
+      "scorable_main_windows": 715,
+      "discordant": 223,
+      "discordant_end": 60,
+      "discordant_attack": 10
+    }
+  ],
+  "battle15_transitions": {
+    "00": 22,
+    "01": 5,
+    "10": 5,
+    "11": 7
+  },
+  "energy_aggregates": [
+    {
+      "agent": "import:submission-palfingon-1.1-900dd44865a7",
+      "palafin_ex_snapshots": 61,
+      "overcap_snapshots": 0,
+      "wrong_type_snapshots": 0,
+      "energy_ready_snapshots": 50
+    },
+    {
+      "agent": "import:submission-palfingon-1.2-870a2330cec4",
+      "palafin_ex_snapshots": 89,
+      "overcap_snapshots": 0,
+      "wrong_type_snapshots": 0,
+      "energy_ready_snapshots": 66
+    },
+    {
+      "agent": "import:submission-palfingon-1.3-c473bc1209b2",
+      "palafin_ex_snapshots": 25,
+      "overcap_snapshots": 0,
+      "wrong_type_snapshots": 0,
+      "energy_ready_snapshots": 11
+    },
+    {
+      "agent": "random",
+      "palafin_ex_snapshots": 6,
+      "overcap_snapshots": 4,
+      "wrong_type_snapshots": 6,
+      "energy_ready_snapshots": 4
+    },
+    {
+      "agent": "workspace:Palaking",
+      "palafin_ex_snapshots": 277,
+      "overcap_snapshots": 0,
+      "wrong_type_snapshots": 0,
+      "energy_ready_snapshots": 234
+    },
+    {
+      "agent": "workspace:palfingon",
+      "palafin_ex_snapshots": 193,
+      "overcap_snapshots": 0,
+      "wrong_type_snapshots": 0,
+      "energy_ready_snapshots": 125
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "NsZoroark/deck.csv",
+      "sha256": "a907353387b1e3e6c0d78e6f2685868bacdb31afbbde4a9b0d9661d83acf0025"
+    },
+    {
+      "path": "Palaking/deck.csv",
+      "sha256": "c1a1d9784b97ccc7ccfdf0e498b1b027881fd49917b5fc30ce6315743f5f4bd6"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle10_00-10_2026-09-07_pal_vs_pal.jsonl",
+      "sha256": "72bb877317db6c554bb533bf4c977532360502011dab1f9b27d66b7c647657dd"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle11_00-14_2026-09-07_pal_vs_pal.jsonl",
+      "sha256": "f34212898deb988a80fe6fbe4874eb168d58d2c61ad018ec40516e2e21d512f2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle12_01-04_2026-09-07_pal_vs_pal.jsonl",
+      "sha256": "9e346b317cd1e43c822ca3fed1e725ac6797d0f06a3cfde01077ae8b3e015dca"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle13_00-49_2026-09-08_pal_vs_pal.jsonl",
+      "sha256": "640b36fe0390ba1fa5f1cf9666c6cfb89f7f79f21b353e371586372174b79bc8"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle14_00-51_2026-09-08_pal_vs_ran.jsonl",
+      "sha256": "ac46d4aefd69250905ec1014ece82663821bbccfd36bb0e7c79262373b3fc6a7"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle15_01-14_2026-09-08_sub_vs_sub.jsonl",
+      "sha256": "f799093c5426bc348346c4c40ec574fdc068ea6f408aca6bc68b883c2a1cdccd"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle16_20-39_2026-09-08_pal_vs_pal.jsonl",
+      "sha256": "88994086fd9d7fce32342dfb6392a3a6cb15c31ea561c03b491725d3e79ef654"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle17_20-39_2026-09-08_pal_vs_pal.jsonl",
+      "sha256": "6e24b33796b507f4e054d10919551a1266dce0cd94b46b43f680e88741ea2e32"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle18_20-42_2026-09-08_pal_vs_ran.jsonl",
+      "sha256": "f4b426cb8cf4c8c06dcf3c6bc060bcc46913e3992fd2a3a8a56abb70d2e8e863"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle19_09-35_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "d1d751310a5763fa18288067579ff6e42560ca1b015ad3a257e00507df2297ff"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle1_15-43_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "d614159d2c13b658c4c19e6e040fdec383c5216ede281ff3f8c081f125603892"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle20_10-13_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "a0d903b859cf66bd2727037810f60f963ff8b2dde662fe4b3bdc81c5a40db0c9"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle21_10-39_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "49689b3c782dc21c319110d89ad094b91ea2bae0e23c3c7eae39b53115650218"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle22_10-39_2026-09-09_sub_vs_pal.jsonl",
+      "sha256": "27a8364a96eecec00bb4e4b542788c03c4c70685c88c932e18a2517c154a174f"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle23_10-40_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "cc63fddffd18c96fddd70ce83d5c405dea10b5c3e21ad28142f52623b71f3b41"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle24_11-21_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "677c0204dae5a95c8430733ad5ef06e731a44ab322934ae71ff0d08d0a634ca4"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle25_15-01_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "544929989e4897c0a297edbedd67f821ed6fd96ad77f7bb17e9128e6b4c16d05"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle27_15-36_2026-09-09_pal_vs_pal.jsonl",
+      "sha256": "02d855bdefc44cbe2653acf4187a60c9a3451ab695bbfd8b9f93100e77b6d594"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle28_15-36_2026-09-09_pal_vs_pal.jsonl",
+      "sha256": "12d586e019dc37d9c92bd301a9c38ef9b2d061a0ec45b438eaa6bcba74aa63a2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle29_15-37_2026-09-09_pal_vs_ran.jsonl",
+      "sha256": "4bb690edeac5fc32fc0aa3e1f52fd0a730b24ba809f48061d7a01bceaea18887"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle2_16-29_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "79e22e582ac34e304ed3632d3a3d4dd1b58a8d641e9d9bec103cd88fbbe759cc"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle30_15-37_2026-09-09_ran_vs_pal.jsonl",
+      "sha256": "88df175ee4318013de5d2f9a945468615f7a54371d57de54602ad7b9fc987a80"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle31_15-50_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "6ce52ff56d7f5a7d9c198c7e987782948327c54eaae7d17a2af361eb5ba00c2c"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle32_15-56_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "3b320cd8d22c42d804310071013c3fb29968a7bcf267fea99c7f3b0066fe3135"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle33_16-04_2026-09-09_sub_vs_sub.jsonl",
+      "sha256": "bbd735b99f02aada26e04287e185d4bf222806786e2cf3e2d8df4f586de4c9e0"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle3_16-31_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "2efafb41fabe9ca67252817c0e66725ef0041c01de2c35b2ce07dba0adbbf655"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle4_16-33_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "2517b2688585de427efd675516ebe2ea24315c7628b76b26a5353c80cbb0f8d2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle5_16-54_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "309d153736810668c61dde1b4ec9e40a1b56bf3508735ddf1da5d62e1a0fe690"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle6_17-10_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "69577a394cd2960110caac3e83b56f4042aff77c3bf0a71db65a2899ce7ac4a8"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle7_17-12_2026-09-02_hyd_vs_pal.jsonl",
+      "sha256": "38cfcd4ea3d09f5ade12fea302ad2fde00b3eb56e1de8042496e402c51a9dd3b"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle8_17-21_2026-09-02_pal_vs_pal.jsonl",
+      "sha256": "cb497524d1e2ccbb4d742de3673406ad3432d61cf671fa966bb38f65ccb693e2"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/battle9_00-10_2026-09-07_pal_vs_ran.jsonl",
+      "sha256": "3dba0848a14b0e273f3d684e668a71104f14811e77423ace29bc4a31d92a0448"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312731505.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312754800.jsonl",
+      "sha256": "e70b4f6ca0bc9aa6d6c077730f1e8e443849d09e723ce8ff5f55c9fa5a19ee8a"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312934760.jsonl",
+      "sha256": "56710f86f13c96253c8ba9c2f091883175cb8d6ef7706e5398c042ab139547ca"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788312959976.jsonl",
+      "sha256": "3cab0f21e855577c37538c74560a15dc5712b3004ce4c10b9d0f09c2bafdb64f"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313084390.jsonl",
+      "sha256": "94766f38a54478dd7b6d214d13853e299dc7eda84fe385e03b739cf114f489bc"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313095904.jsonl",
+      "sha256": "6055724920cabcf5f72ca181318a2efeabdd0b2cb7e9948b4d4e8591e5d6bbc1"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788313394879.jsonl",
+      "sha256": "3f53bf596c799373157e71713d004c219844ea218b154dd7c7d1fe990f3d1a6c"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788367830903.jsonl",
+      "sha256": "e786ffd6a1eaaebdc278eafb15b5f8dc348f22af6180339a0d6bc11dad76f80a"
+    },
+    {
+      "path": "cabt-local-simulator/data/episodes/match-1788375547750.jsonl",
+      "sha256": "fc8932cc3315def5373b5d7c4a618633bb911b230b8a1e939d84d1257b9aca73"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle10_00-10_2026-09-07_pal_vs_pal.json",
+      "sha256": "d212e06b78f80fb4d41498e77663eadb6ae0b978e494064b73164dc33306d76c"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle11_00-14_2026-09-07_pal_vs_pal.json",
+      "sha256": "b542b864c19939e11125e1ae31d04b954fb26fe8af065044f73c0aa4a28df522"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle12_01-04_2026-09-07_pal_vs_pal.json",
+      "sha256": "c72a77fc076e752a75e0122e746a56098ebd71dd00fd0a6211678ffcc6b2850e"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle13_00-49_2026-09-08_pal_vs_pal.json",
+      "sha256": "6161d77b65db9abc5a934a473e40ada2fd3934b238ac62b1dcbf5a4438539643"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle14_00-51_2026-09-08_pal_vs_ran.json",
+      "sha256": "0de2d98bdab51eacb697b02c4f9ece405657ab9734c16838f2617c8204328d05"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle15_01-14_2026-09-08_sub_vs_sub.json",
+      "sha256": "0501ca8ecd27fc21f8a68dd83f93b898b2c4a5c131d120b5ca65c47a8bf585dd"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle16_20-39_2026-09-08_pal_vs_pal.json",
+      "sha256": "0d3162d30121948870c12e8ca530f870f2da64f8de775ea52dbaa83afdad0813"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle17_20-39_2026-09-08_pal_vs_pal.json",
+      "sha256": "effd8cc59e5c6aaaa121ee2482f289c2a0aa090f51fd8d3496b59d9cd8f0e785"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle18_20-42_2026-09-08_pal_vs_ran.json",
+      "sha256": "7eb6185a257867c3df93d039755fefb4f646035fde98342b7caa2a873a833d7b"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle19_09-35_2026-09-09_sub_vs_sub.json",
+      "sha256": "555a60a192bee185da942bb575e79adcabc744584311a93a5694d1f1392f2901"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle1_15-43_2026-09-02_pal_vs_pal.json",
+      "sha256": "901a86f686185511e4a031cc6da73d62f95010856c4115516e7e472c40ccc4e4"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle20_10-13_2026-09-09_sub_vs_sub.json",
+      "sha256": "d29abf8932f2f037613b93336b0eb231c3d18e6a994ae6cd41f0db48bfbe6193"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle21_10-39_2026-09-09_sub_vs_sub.json",
+      "sha256": "9dcc09296d65d41304a2ee47ea9c7b9b4f37d38c1cb1f0910ad3eaf875ddd80c"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle22_10-39_2026-09-09_sub_vs_pal.json",
+      "sha256": "9f1d5a954a5c11eb05a4c79ae5b16dc5143bd944bc09d6ad733854db5a1889c6"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle23_10-40_2026-09-09_sub_vs_sub.json",
+      "sha256": "6ea388d3c82eb5b69ee5ea147fb53afef02097747f9b90c63837edd517b47a8a"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle24_11-21_2026-09-09_sub_vs_sub.json",
+      "sha256": "c915101249b6bca128259fd09fc7f953b4403e9f541a3c294971187b48c950f2"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle25_15-01_2026-09-09_sub_vs_sub.json",
+      "sha256": "53e61535d18694950e7964466dbb545b2d319e022169f8968a103dc66aa6ed2c"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle27_15-36_2026-09-09_pal_vs_pal.json",
+      "sha256": "5353db22bd33ad9077a01b15c1c604b4e3ad6fbc023e67e7f25031f7c61d0d9b"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle28_15-36_2026-09-09_pal_vs_pal.json",
+      "sha256": "2bf0bfa7bae8307e79f14055fe83c639c4d8f8f0948ff3c53a2610fa37f3b19b"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle29_15-37_2026-09-09_pal_vs_ran.json",
+      "sha256": "80469ccffccbba04a749c602eaa52a208f296da4adcfe01e4d7c3e2ef27f903d"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle2_16-29_2026-09-02_pal_vs_pal.json",
+      "sha256": "e226653f9687917fec3e388dccbea12c314798af53ca95d7c561a884dc6e0e1f"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle30_15-37_2026-09-09_ran_vs_pal.json",
+      "sha256": "d57049430aec7bc45310971e7e9b7652bd3ec7fa0191227067ca9c757292f756"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle31_15-50_2026-09-09_sub_vs_sub.json",
+      "sha256": "65214f193d62d54bf82a4905e095256cd8dfe340c5fe2037f16a63efc7202ec3"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle32_15-56_2026-09-09_sub_vs_sub.json",
+      "sha256": "8cd09ca315af909202b1a431ad0096dbf4b9a0c67e1b3573da1a735e96d93078"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle33_16-04_2026-09-09_sub_vs_sub.json",
+      "sha256": "3d9f57dc5146dabc58823fc805999e7250f45f848f73f84cce20001d0c8d9735"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle3_16-31_2026-09-02_pal_vs_pal.json",
+      "sha256": "cc2a8fb8305b3fe4ba234f8096c60306d0f5d65388a5d87f57286ad878208682"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle4_16-33_2026-09-02_pal_vs_pal.json",
+      "sha256": "e7dca2cfeded212a6c78620a108cde507720a512e16095dfdc64aee5a96acd83"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle5_16-54_2026-09-02_pal_vs_pal.json",
+      "sha256": "6b8b46612dfd9362a7fde3e60afb883037a1e9d4f2190b3d8449471393dcdf48"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle6_17-10_2026-09-02_pal_vs_pal.json",
+      "sha256": "2a3dbb6ac50ad96d2dd2c54456ff4044560f34a6d24620f6c582c631630c949a"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle7_17-12_2026-09-02_hyd_vs_pal.json",
+      "sha256": "571d3d70cc41ed133bafbf56ec45221c62a6806505a847d4490aa12a0a8f71a7"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle8_17-21_2026-09-02_pal_vs_pal.json",
+      "sha256": "2e9685a5d0906f1e1f124ce7f64d7bd631a1f0b2bbdbcb10c54894d666074bfe"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/battle9_00-10_2026-09-07_pal_vs_ran.json",
+      "sha256": "2dfd4978fcd39d1cdffb67a09a4bfd0ea32b732029abd5431b102a40e655b677"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312731505.json",
+      "sha256": "94cb6f3f898bc79497e8ad87b4b954e61af91b548f208a010d7b0b3365494457"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312754800.json",
+      "sha256": "8e38f7b698c7bdc1b87d81b41c389215f6e93905b223327638148f909ece99e8"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312934760.json",
+      "sha256": "8133e7b5447793db279858ff6aa453a4da784f6551c3251a2ef16e628cf67482"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788312959976.json",
+      "sha256": "42450f588a8e2057f2ec10b98a8be867f73468c90d6400acc27d758d0ce61561"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788313084390.json",
+      "sha256": "67770a92ad6914a566f0f8ccc1e689afbb347910a02a2c22ddf66136a233fef5"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788313095904.json",
+      "sha256": "0d32b095ee82834e9a4617e708169745a401259f131db5d208bb11414e9115d6"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788313394879.json",
+      "sha256": "13ffb70b6469a607641c36c383f04d10cae24c2e25b4e585092e52177d500bab"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788367830903.json",
+      "sha256": "262d3c01eee655da367b059ff6594bda46e48f873fbb21df0633727e24b946e1"
+    },
+    {
+      "path": "cabt-local-simulator/data/summaries/match-1788375547750.json",
+      "sha256": "65bead79da6984e4c1e1ed52f412490fbfec6346d7d13b6cfd23a9e83c21661f"
+    },
+    {
+      "path": "hydreigen/deck.csv",
+      "sha256": "e1c3d6eff63e774ca077506d647ec7bfe91f0663d0db57a7f46630e72171894c"
+    },
+    {
+      "path": "palfingon/cabt_attacks.json",
+      "sha256": "44d9c2afe8eef1e637126476dd37c3fc37130b574a39c4435e038840292190b4"
+    },
+    {
+      "path": "palfingon/cabt_cards.json",
+      "sha256": "11177e93466f857ef9eefc9036b28f78e9343da626c081b24e96785e98bfec10"
+    },
+    {
+      "path": "palfingon/deck.csv",
+      "sha256": "231e175d50e0b02fa1631f52111708e2eca77fc4d8c671435d0fd907ae8bdb63"
+    },
+    {
+      "path": "palfingon/submission palfingon 1.1.zip",
+      "sha256": "900dd44865a7745ca14f533168a2bfa2ca2cd98c65897cb0c9effc8c54a9918c"
+    },
+    {
+      "path": "palfingon/submission palfingon 1.2.zip",
+      "sha256": "870a2330cec4a820f74d114ba49180b06fec5576151e552b1fc210646a3ea2fa"
+    },
+    {
+      "path": "palfingon/submission palfingon 1.3.zip",
+      "sha256": "c473bc1209b253be6b0f6604905d81dbc2972e9b8b69b9ee457c572a73a97863"
+    },
+    {
+      "path": "write ups/analyze_writeup_data.py",
+      "sha256": "9d563ab44f49bc401e367fb1b45d9062d43d51165daa5dc3a8f2202cd7d8c969"
+    },
+    {
+      "path": "write ups/scientific_analysis.py",
+      "sha256": "67c5c0cde48bb56b5f2c0dda5167e8d4c41b816297c898264504c0b6eb5625b0"
+    }
+  ]
+}

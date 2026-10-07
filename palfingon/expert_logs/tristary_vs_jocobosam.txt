@@ -1,0 +1,309 @@
+Setup
+JocoboSam chose tails for the opening coin flip.
+Tristary won the coin toss.
+Tristary decided to go first.
+JocoboSam drew 7 cards for the opening hand.
+- 7 drawn cards.
+Tristary drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Buddy-Buddy Poffin, Finizen, Buddy-Buddy Poffin, Mega Dragonite ex, Air Balloon, Surfing Beach, Mega Dragonite ex
+JocoboSam played Dhelmise to the Active Spot.
+Tristary played Finizen to the Active Spot.
+
+Tristary's Turn
+Tristary drew Dragonair.
+Tristary played Buddy-Buddy Poffin.
+- Tristary drew 2 cards and played them to the Bench.
+   • Tatsugiri, Finizen
+- Tristary shuffled their deck.
+Tristary played Buddy-Buddy Poffin.
+- Tristary drew 2 cards and played them to the Bench.
+   • Finizen, Finizen
+- Tristary shuffled their deck.
+Tristary attached Air Balloon to Finizen in the Active Spot.
+Tristary retreated Finizen to the Bench.
+Tristary's Tatsugiri is now in the Active Spot.
+Tristary's Tatsugiri used Attract Customers.
+- Tristary shuffled their deck.
+Tristary ended their turn.
+
+JocoboSam's Turn
+JocoboSam drew a card.
+JocoboSam attached Basic Psychic Energy to Dhelmise in the Active Spot.
+JocoboSam played Poké Pad.
+- JocoboSam drew Sinistcha.
+- JocoboSam shuffled their deck.
+JocoboSam played Gwynn.
+- JocoboSam discarded 2 cards.
+   • Sinistcha, Banette
+- JocoboSam drew 6 cards.
+JocoboSam played Shuppet to the Bench.
+JocoboSam's Dhelmise used Vengeful Anchor on Tristary’s Tatsugiri for 30 damage.
+
+Tristary's Turn
+Tristary drew Boss's Orders.
+Tristary's Tatsugiri used Attract Customers.
+- Tristary drew Lillie's Determination.
+- Tristary shuffled their deck.
+Tristary played Surfing Beach to the Stadium spot.
+Tristary played Lillie's Determination.
+- Tristary shuffled 4 cards into their deck.
+   • Mega Dragonite ex, Mega Dragonite ex, Dragonair, Boss's Orders
+- Tristary drew 8 cards.
+   • Dratini, Hilda, Mega Dragonite ex, Secret Box, Basic Water Energy, Great Haul Net, Poké Pad, Basic Water Energy
+Tristary played Dratini to the Bench.
+Tristary attached Basic Water Energy to Finizen on the Bench.
+Tristary played Poké Pad.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary played Secret Box.
+- Tristary discarded 3 cards.
+   • Basic Water Energy, Mega Dragonite ex, Hilda
+- Tristary drew 4 cards.
+   • Poké Pad, Air Balloon, Lillie's Determination, Surfing Beach
+- Tristary shuffled their deck.
+Tristary played Poké Pad.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary attached Air Balloon to Tatsugiri in the Active Spot.
+Tristary retreated Tatsugiri to the Bench.
+Tristary's Palafin is now in the Active Spot.
+Tristary played Surfing Beach.
+- Tristary's Finizen was switched with Tristary's Palafin to become the Active Pokémon.
+Tristary's Finizen is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary ended their turn.
+
+JocoboSam's Turn
+JocoboSam drew a card.
+JocoboSam played Poké Pad.
+- JocoboSam drew Dunsparce.
+- JocoboSam shuffled their deck.
+JocoboSam played Dunsparce to the Bench.
+JocoboSam played Lillie's Determination.
+- JocoboSam shuffled 7 cards into their deck.
+- JocoboSam drew 8 cards.
+JocoboSam played Prism Tower to the Stadium spot.
+- Tristary discarded Surfing Beach.
+JocoboSam played Poké Pad.
+- JocoboSam drew Sinistcha.
+- JocoboSam shuffled their deck.
+JocoboSam played Prism Tower.
+- JocoboSam discarded 2 cards.
+   • Shuppet, Sinistcha
+- JocoboSam drew a card.
+JocoboSam's Dhelmise used Vengeful Anchor on Tristary’s Finizen for 170 damage.
+- Damage breakdown:
+   • Base damage: 30 damage
+   • 4 Pokémon with Abilities: 140 damage
+   • Total damage: 170 damage
+
+Tristary's Finizen was Knocked Out!
+JocoboSam took a Prize card.
+A card was added to JocoboSam's hand.
+Tristary's Palafin is now in the Active Spot.
+
+Tristary's Turn
+Tristary drew Poké Pad.
+Tristary played Poké Pad.
+- Tristary drew Dragonair.
+- Tristary shuffled their deck.
+Tristary evolved Dratini to Dragonair on the Bench.
+Tristary played Surfing Beach to the Stadium spot.
+- JocoboSam discarded Prism Tower.
+Tristary played Lillie's Determination.
+- Tristary shuffled Great Haul Net into their deck.
+- Tristary drew 8 cards.
+   • Team Rocket's Petrel, Team Rocket's Petrel, Energy Retrieval, Basic Lightning Energy, Crispin, Lillie's Determination, Great Haul Net, Basic Lightning Energy
+Tristary attached Basic Lightning Energy to Dragonair on the Bench.
+Tristary's Dragonair used Evolutionary Guidance.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary retreated Palafin to the Bench.
+Tristary's Palafin is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary played Surfing Beach.
+- Tristary's Palafin ex was switched with Tristary's Palafin to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary's Palafin ex used Giga Impact on JocoboSam’s Dhelmise for 250 damage.
+JocoboSam's Dhelmise was Knocked Out!
+Basic Psychic Energy was discarded from JocoboSam's Dhelmise.
+Tristary took a Prize card.
+Basic Water Energy was added to Tristary's hand.
+JocoboSam's Dunsparce is now in the Active Spot.
+
+JocoboSam's Turn
+JocoboSam drew a card.
+JocoboSam played Prism Tower to the Stadium spot.
+- Tristary discarded Surfing Beach.
+JocoboSam played Lillie's Determination.
+- JocoboSam shuffled 6 cards into their deck.
+- JocoboSam drew 6 cards.
+JocoboSam played Ultra Ball.
+- JocoboSam discarded 2 cards.
+   • Banette, Banette
+- JocoboSam drew Dudunsparce.
+- JocoboSam shuffled their deck.
+JocoboSam evolved Dunsparce to Dudunsparce in the Active Spot.
+JocoboSam played Night Stretcher.
+- JocoboSam moved JocoboSam's Dhelmise to their hand.
+JocoboSam played Dhelmise to the Bench.
+JocoboSam played Dudunsparce.
+- JocoboSam drew 3 cards.
+- JocoboSam shuffled 2 cards into their deck.
+   • Dudunsparce, Dunsparce
+JocoboSam's Dhelmise is now in the Active Spot.
+JocoboSam played Dhelmise to the Bench.
+JocoboSam attached Basic Psychic Energy to Dhelmise in the Active Spot.
+JocoboSam played Dhelmise to the Bench.
+JocoboSam's Dhelmise used Vengeful Anchor on Tristary’s Palafin ex for 170 damage.
+- Damage breakdown:
+   • Base damage: 30 damage
+   • 6 Pokémon with Abilities: 140 damage
+   • Total damage: 170 damage
+
+
+Tristary's Turn
+Tristary drew Buddy-Buddy Poffin.
+Tristary attached Basic Water Energy to Palafin ex on the Bench.
+Tristary's Dragonair used Evolutionary Guidance.
+- Tristary drew Mega Dragonite ex.
+- Tristary shuffled their deck.
+Tristary evolved Dragonair to Mega Dragonite ex on the Bench.
+Tristary played Team Rocket's Petrel.
+- Tristary drew Surfing Beach.
+- Tristary shuffled their deck.
+Tristary played Surfing Beach to the Stadium spot.
+- JocoboSam discarded Prism Tower.
+Tristary's Mega Dragonite ex used Sky Transport.
+- Tristary's Tatsugiri was switched with Tristary's Palafin ex to become the Active Pokémon.
+Tristary's Tatsugiri is now in the Active Spot.
+Tristary's Tatsugiri used Attract Customers.
+- Tristary drew Boss's Orders.
+- Tristary shuffled their deck.
+Tristary retreated Tatsugiri to the Bench.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin ex used Giga Impact on JocoboSam’s Dhelmise for 250 damage.
+JocoboSam's Dhelmise was Knocked Out!
+Basic Psychic Energy was discarded from JocoboSam's Dhelmise.
+Tristary took a Prize card.
+Crispin was added to Tristary's hand.
+JocoboSam's Dhelmise is now in the Active Spot.
+
+JocoboSam's Turn
+JocoboSam drew a card.
+JocoboSam attached Basic Psychic Energy to Dhelmise in the Active Spot.
+JocoboSam played Boss's Orders.
+- Tristary's Palafin ex was switched with Tristary's Palafin ex to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+JocoboSam's Dhelmise used Vengeful Anchor on Tristary’s Palafin ex for 170 damage.
+- Damage breakdown:
+   • Base damage: 30 damage
+   • 6 Pokémon with Abilities: 140 damage
+   • Total damage: 170 damage
+
+Tristary's Palafin ex was Knocked Out!
+- 2 cards were discarded from Tristary's Palafin ex.
+   • Basic Water Energy, Finizen
+JocoboSam took 2 Prize cards.
+A card was added to JocoboSam's hand.
+A card was added to JocoboSam's hand.
+Tristary's Palafin ex is now in the Active Spot.
+
+Tristary's Turn
+Tristary drew Team Rocket's Petrel.
+Tristary played Great Haul Net.
+- Tristary shuffled 5 cards into their deck.
+   • Finizen, Finizen, Palafin ex, Basic Water Energy, Basic Water Energy
+Tristary played Buddy-Buddy Poffin.
+- Tristary drew 2 cards and played them to the Bench.
+   • Finizen, Finizen
+- Tristary shuffled their deck.
+Tristary played Team Rocket's Petrel.
+- Tristary drew Poké Pad.
+- Tristary shuffled their deck.
+Tristary played Poké Pad.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary attached Basic Lightning Energy to Mega Dragonite ex on the Bench.
+Tristary's Palafin ex used Giga Impact on JocoboSam’s Dhelmise for 250 damage.
+JocoboSam's Dhelmise was Knocked Out!
+Basic Psychic Energy was discarded from JocoboSam's Dhelmise.
+Tristary took a Prize card.
+Buddy-Buddy Poffin was added to Tristary's hand.
+JocoboSam's Dhelmise is now in the Active Spot.
+
+JocoboSam's Turn
+JocoboSam drew a card.
+JocoboSam played Dunsparce to the Bench.
+JocoboSam played Meowth ex to the Bench.
+JocoboSam's Meowth ex used Last-Ditch Catch.
+- JocoboSam drew Lillie's Determination.
+- JocoboSam shuffled their deck.
+JocoboSam played Lillie's Determination.
+- JocoboSam shuffled 2 cards into their deck.
+- JocoboSam drew 6 cards.
+JocoboSam played Poké Pad.
+- JocoboSam drew Dhelmise.
+- JocoboSam shuffled their deck.
+JocoboSam played Dhelmise to the Bench.
+JocoboSam played Pokégear 3.0.
+- JocoboSam shuffled their deck.
+JocoboSam ended their turn.
+
+Tristary's Turn
+Tristary drew Palafin ex.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary retreated Palafin ex to the Bench.
+Tristary's Palafin is now in the Active Spot.
+Tristary played Surfing Beach.
+- Tristary's Palafin ex was switched with Tristary's Palafin to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary played Crispin.
+- Tristary drew Basic Water Energy.
+Tristary attached Basic Water Energy to Palafin ex on the Bench.
+Tristary's Palafin ex used Giga Impact on JocoboSam’s Dhelmise for 250 damage.
+JocoboSam's Dhelmise was Knocked Out!
+Tristary took a Prize card.
+Basic Lightning Energy was added to Tristary's hand.
+JocoboSam's Dunsparce is now in the Active Spot.
+
+JocoboSam's Turn
+JocoboSam drew a card.
+JocoboSam attached Brave Bangle to Dhelmise on the Bench.
+JocoboSam ended their turn.
+
+Tristary's Turn
+Tristary drew Basic Water Energy.
+Tristary attached Basic Water Energy to Mega Dragonite ex on the Bench.
+Tristary played Boss's Orders.
+- JocoboSam's Meowth ex was switched with JocoboSam's Dunsparce to become the Active Pokémon.
+JocoboSam's Meowth ex is now in the Active Spot.
+Tristary retreated Palafin ex to the Bench.
+Tristary's Mega Dragonite ex is now in the Active Spot.
+Tristary's Mega Dragonite ex used Ryuno Glide on JocoboSam’s Meowth ex for 330 damage.
+- 2 cards were discarded from Tristary's Mega Dragonite ex.
+   • Basic Lightning Energy, Basic Water Energy
+JocoboSam's Meowth ex was Knocked Out!
+Tristary took 2 Prize cards.
+Switch was added to Tristary's hand.
+Lillie's Determination was added to Tristary's hand.
+All Prize cards taken. Tristary wins.
+

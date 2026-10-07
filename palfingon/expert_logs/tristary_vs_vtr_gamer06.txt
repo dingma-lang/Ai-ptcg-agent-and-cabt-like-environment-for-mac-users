@@ -1,0 +1,84 @@
+Setup
+Vtr_Gamer06 chose tails for the opening coin flip.
+Tristary won the coin toss.
+Tristary decided to go first.
+Vtr_Gamer06 drew 7 cards for the opening hand.
+- 7 drawn cards.
+Tristary drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Basic Water Energy, Dragonair, Poké Pad, Finizen, Poké Pad, Dratini, Finizen
+Vtr_Gamer06 took a mulligan.
+- Cards revealed from Mulligan 1
+   • Lillie's Determination, Basic Metal Energy, Basic Metal Energy, Basic Metal Energy, Team Rocket's Petrel, Lillie's Determination, Hero's Cape
+Vtr_Gamer06 took 2 mulligans.
+- Cards revealed from Mulligan 2
+   • Buddy-Buddy Poffin, Team Rocket's Petrel, Basic Metal Energy, Pokégear 3.0, Basic Metal Energy, Basic Metal Energy, Basic Metal Energy
+Tristary drew 2 more cards because Vtr_Gamer06 took at least 1 mulligan.
+- Tristary drew 2 cards.
+   • Secret Box, Lillie's Determination
+Vtr_Gamer06 played Drilbur to the Active Spot.
+Vtr_Gamer06 played Beldum to the Bench.
+Vtr_Gamer06 played Mega Skarmory ex to the Bench.
+Tristary played Finizen to the Active Spot.
+Tristary played Dratini to the Bench.
+Tristary played Finizen to the Bench.
+
+Tristary's Turn
+Tristary drew Surfing Beach.
+Tristary attached Basic Water Energy to Finizen in the Active Spot.
+Tristary ended their turn.
+
+Vtr_Gamer06's Turn
+Vtr_Gamer06 drew a card.
+Vtr_Gamer06 didn't take an action in time.
+
+Tristary's Turn
+Tristary drew Buddy-Buddy Poffin.
+Tristary played Buddy-Buddy Poffin.
+- Tristary drew 2 cards and played them to the Bench.
+   • Tatsugiri, Finizen
+- Tristary shuffled their deck.
+Tristary evolved Dratini to Dragonair on the Bench.
+Tristary played Poké Pad.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary evolved Finizen to Palafin in the Active Spot.
+Tristary played Poké Pad.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary played Surfing Beach to the Stadium spot.
+Tristary played Lillie's Determination.
+- Tristary shuffled Secret Box into their deck.
+- Tristary drew 8 cards.
+   • Basic Water Energy, Hilda, Dratini, Energy Retrieval, Secret Box, Basic Water Energy, Palafin ex, Mega Dragonite ex
+Tristary attached Basic Water Energy to Palafin on the Bench.
+Tristary played Secret Box.
+- Tristary discarded 3 cards.
+   • Basic Water Energy, Dratini, Palafin ex
+- Tristary drew 4 cards.
+   • Night Stretcher, Air Balloon, Lillie's Determination, Surfing Beach
+- Tristary shuffled their deck.
+Tristary attached Air Balloon to Palafin on the Bench.
+Tristary played Surfing Beach.
+- Tristary's Palafin was switched with Tristary's Palafin to become the Active Pokémon.
+Tristary's Palafin is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary retreated Palafin to the Bench.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary's Palafin ex used Giga Impact on Vtr_Gamer06’s Drilbur for 250 damage.
+Vtr_Gamer06's Drilbur was Knocked Out!
+Tristary took a Prize card.
+Palafin ex was added to Tristary's hand.
+Vtr_Gamer06's Beldum is now in the Active Spot.
+
+Vtr_Gamer06's Turn
+Vtr_Gamer06 drew a card.
+Opponent conceded. Tristary wins.

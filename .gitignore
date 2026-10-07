@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+**/data/episodes/
+**/data/replays/
+**/data/summaries/
+**/data/catalog/
+**/data/imported_agents/
+**/data/studies/
+**/data/study_memory/
+**/data/.battle_indexes/
+.venv/
+*.egg-info/
+.runtime/
+.env
+.env.*
+.Rhistory
+local_results/
+eval_results/
+
+# Obtain these organizer assets separately; do not redistribute them.
+sample_submission/
+card list and resource/
+EN_Card_Data.csv
+JP_Card_Data.csv
+cabt_cards.json
+cabt_attacks.json
+*.so
+*.dll
+*.dylib
+*.whl
+meg_rulebook_en.pdf
+Card_ID*.pdf
+write up instruction.docx
+
+# Only the reviewed source-only archives belong in the public repository.
+*.zip
+!/submissions/*-source-only.zip

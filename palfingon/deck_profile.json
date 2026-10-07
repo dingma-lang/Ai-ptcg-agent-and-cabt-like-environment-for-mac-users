@@ -1,0 +1,272 @@
+{
+  "strategy_id": "palfingon",
+  "strategy_scope": "deck_specific",
+  "archetype": "Palafin ex / Mega Dragonite ex with Vanguard Punch",
+  "prefer_going_first": true,
+  "preferred_going": "first",
+  "main_attackers_names": [
+    "Palafin ex",
+    "Mega Dragonite ex"
+  ],
+  "main_damage_dealers_names": [
+    "Palafin ex",
+    "Mega Dragonite ex"
+  ],
+  "secondary_attackers_names": [
+    "Palafin TEF 49"
+  ],
+  "setup_basics_names": [
+    "Finizen",
+    "Dratini"
+  ],
+  "support_pokemon_names": [
+    "Tatsugiri"
+  ],
+  "setup_priority_names": [
+    "Buddy-Buddy Poffin",
+    "Finizen",
+    "Dratini",
+    "Palafin",
+    "Palafin ex",
+    "Dragonair",
+    "Mega Dragonite ex",
+    "Poké Pad",
+    "Lillie's Determination"
+  ],
+  "protected_cards_names": [
+    "Palafin ex",
+    "Mega Dragonite ex",
+    "Finizen",
+    "Dratini",
+    "Secret Box",
+    "Basic Water Energy",
+    "Basic Lightning Energy"
+  ],
+  "conditionally_protected_cards_names": [
+    "Palafin",
+    "Dragonair",
+    "Tatsugiri",
+    "Surfing Beach",
+    "Team Rocket's Petrel",
+    "Lillie's Determination",
+    "Crispin",
+    "Hilda"
+  ],
+  "primary_attackers": [
+    107,
+    904
+  ],
+  "secondary_attackers": [
+    51
+  ],
+  "main_damage_dealers": [
+    107,
+    904
+  ],
+  "setup_pokemon": [
+    105,
+    902
+  ],
+  "support_pokemon": [
+    122
+  ],
+  "draw_search_cards": [
+    1086,
+    1152,
+    1227,
+    1219,
+    1092,
+    1118,
+    1123,
+    1097,
+    1198,
+    1225
+  ],
+  "key_supporters": [
+    1227,
+    1219,
+    1198,
+    1225,
+    1182,
+    1213
+  ],
+  "key_items": [
+    1086,
+    1152,
+    1092,
+    1097,
+    1118,
+    1123,
+    1174
+  ],
+  "setup_priority": [
+    1086,
+    105,
+    902,
+    106,
+    107,
+    903,
+    904,
+    1152,
+    1227
+  ],
+  "evolution_priorities": [
+    106,
+    903,
+    904,
+    51
+  ],
+  "energy_ids": [
+    3,
+    4
+  ],
+  "protected_energy_ids": [
+    3,
+    4
+  ],
+  "energy_attachment_priorities": [
+    107,
+    51,
+    106,
+    904,
+    903,
+    902
+  ],
+  "retreat_switch_priorities": [
+    107,
+    904,
+    106,
+    122
+  ],
+  "must_use_before_attack": [
+    1086,
+    1152,
+    1227,
+    1219,
+    1092,
+    1198
+  ],
+  "protected_cards": [
+    107,
+    904,
+    105,
+    902,
+    1092,
+    3,
+    4
+  ],
+  "conditionally_protected_cards": [
+    106,
+    903,
+    122,
+    1262,
+    1219,
+    1227,
+    1198,
+    1225
+  ],
+  "discard_freely": [],
+  "bench_only_if_useful": [
+    122
+  ],
+  "avoid_benching": [],
+  "unresolved_cards": [],
+  "draw_keywords": [
+    "draw",
+    "shuffle your hand into your deck",
+    "put cards from your deck into your hand"
+  ],
+  "search_keywords": [
+    "search your deck",
+    "look at the top",
+    "put it into your hand"
+  ],
+  "energy_acceleration_keywords": [
+    "attach a Basic Energy",
+    "attach an Energy",
+    "energy cards from your deck"
+  ],
+  "prize_mapping": {
+    "normal_1_prize_line": [
+      105,
+      106,
+      51,
+      902,
+      903,
+      122
+    ],
+    "ex_2_prize_line": [
+      107
+    ],
+    "mega_ex_3_prize_line": [
+      904
+    ],
+    "high_risk_liabilities": [
+      107,
+      904
+    ]
+  },
+  "matchup_notes": {},
+  "conditional_rules": [
+    "Plan the complete turn before spending irreversible resources: win/prevent loss, best Prize trade, legal attack this turn, next-turn attack, evolution/switch engine, then optional conservation.",
+    "Buddy-Buddy Poffin is not automatic. Use it when it finds a concrete Finizen or Tatsugiri setup target; hold it on a developed Bench when the last slots are better saved for Palafin movement or follow-up attackers.",
+    "Do not try to get Dratini with Buddy-Buddy Poffin; Dratini is above the Poffin HP limit, so use Poké Pad or Hilda-style search for the Dragonite basic.",
+    "Treat Palafin SVALT 81 as local card ID 106 with the Ability that helps reach Palafin ex.",
+    "Build Palafin ex as the first attacker when the Finizen line is live.",
+    "Palafin ex should have exactly one useful Energy attached; hard-avoid manual or effect attachments to Palafin ex once any Energy is already attached.",
+    "Only Basic Water Energy should be attached to the Finizen / Palafin / Palafin ex line. Reserve Basic Lightning Energy for the Dragonite line.",
+    "In setup, prefer Finizen in the Active Spot over the Dragonite line when both are legal.",
+    "Air Balloon should enable a real route: active Palafin, a benched Water return pivot, attack-locked Palafin ex, Tatsugiri, or active Finizen opening Supporter access without paying Energy.",
+    "Do not attach Energy to Tatsugiri for retreat setup; use Air Balloon for Tatsugiri pivoting.",
+    "Mega Dragonite ex should not pay a two-Energy retreat cost. Its free switch Ability may escape a stranded Active, bring a ready attacker Active, reach a productive pivot, or start a real Palafin reset/transformation.",
+    "If active Palafin ex can currently use Giga Impact, keep Mega Dragonite ex switch Ability low. If Palafin ex cannot use Giga Impact or normal Palafin needs Zero to Hero, raise Mega Dragonite ex switch Ability.",
+    "After our Active is Knocked Out, if no attacker is ready on board, promote Finizen.",
+    "Protect lone Finizen/Dratini/Dragonair/Palafin pieces and live next-turn evolution cards unless a direct attacker is needed.",
+    "If active Finizen plus another Water Pokemon can start the Palafin chain, Secret Box may find Poké Pad, Air Balloon, Surfing Beach, and a Supporter.",
+    "Team Rocket's Petrel may prioritize Secret Box over a direct single Trainer when Secret Box safely provides two or more pieces such as Poffin, Poké Pad, Air Balloon, Surfing Beach, or a next-turn Supporter.",
+    "Team Rocket's Petrel may directly get Poké Pad when Finizen is in play and Palafin is missing, because Poké Pad can lead to the immediate Palafin evolution.",
+    "Use Tatsugiri's Attract Customers before spending a Supporter when Tatsugiri is Active.",
+    "Use Poké Pad for Dratini when the Dragonite line is absent; use Poké Pad for Palafin when Finizen is ready and the Dragonite basic is already handled.",
+    "Dragonair's Evolutionary Guidance requires any Energy. Use it when the searched Evolution advances the strongest current or next-turn line, but sequence around Lillie or other hand-refresh effects so the searched card is not shuffled away before use.",
+    "Dragonair's Ability should get normal Palafin when Finizen is ready, or Mega Dragonite ex when Dragonair can evolve. Do not get Palafin ex with Dragonair because Palafin ex should stay in deck for Zero to Hero.",
+    "Before Lillie's Determination, check in this order: usable Items this turn; legal evolution and Basics that can be benched; useful abilities or Energy attachment; then Lillie only after those actions are cleared.",
+    "Treat cabt main-action legal windows as our actionable turn even if turn parity is ambiguous; prefer direct current-player fields when cabt provides them.",
+    "Before attacking or ending the turn, rerun the checklist for evolution, useful Items, Energy attachment, and unused Supporters unless an attack is taking a clean Knock Out.",
+    "Because cabt calls the agent after every action, rerun the same checklist after each card resolves.",
+    "Before attacking or ending the turn, use Buddy-Buddy Poffin or Poké Pad only when they find missing Basics or evolution pieces that matter before the opponent's next turn.",
+    "Treat Mega Dragonite ex's Sky Transport as the primary reusable switch effect. Prefer it over Switch or paid retreat when it creates the same or better board state without spending a card or Energy.",
+    "One switch effect is one exchange only. Do not start a Zero to Hero or Giga Impact reset route unless the required number of separate movements is available, or the partial line clearly improves next turn.",
+    "Track Palafin ex locations. Palafin ex in hand is not a usable evolution and cannot be selected by Zero to Hero; if all accessible copies are stuck in hand, shuffle them back before transforming.",
+    "Do not bench every Basic merely because it is legal. Bench only when it evolves next turn, enables Zero to Hero, supplies Tatsugiri support, builds a realistic backup attacker, or protects access better than holding it.",
+    "Energy attachment is breakpoint-based. Palafin ex normally stops at exactly one Water; Lightning stays for the Dragonite line; Water can go to Dragonair/Dratini when it enables Evolutionary Guidance or a stronger Dragonite line.",
+    "It is acceptable to end with playable cards in hand when playing them would overfill the Bench, expose prizes, spend future switch pieces, weaken recovery, or add no meaningful advantage.",
+    "Before major attacks or Mega Dragonite exposure, compare Prize trade, return-KO risk, weakness/resistance, visible gust/bench damage, and whether the opponent can win next turn.",
+    "Build Mega Dragonite ex as the second real damage dealer, not as a disposable support Pokemon.",
+    "Do not reuse strategy rules from other deck folders.",
+    "Use only this folder's profile, deck, and approved study rules.",
+    "The two normal Palafin variants are distinct: ID 106 enables Zero to Hero; ID 51 attacks with Vanguard Punch and cannot transform.",
+    "Finizen and either normal Palafin stop at one Water as an investment policy; Palafin ex stops at exactly one Water. Never attach Lightning to this line or Energy to Tatsugiri.",
+    "Vanguard Punch deals 130 before modifiers and self-damage equal to existing damage. Avoid a self-KO unless it wins immediately.",
+    "Use Judge for a dead hand or visible large opposing hand; prefer Lillie for stronger own setup. Apply the pre-refresh useful-action check to both.",
+    "Keep Surfing Beach if needed for movement this turn. Play Battle Cage for visible opposing damage-counter placement threats; it does not prevent attack damage.",
+    "Night Stretcher returns cards to hand, not deck. Recover Palafin ex only with a productive hand-shuffle plan before Zero to Hero.",
+    "With no Supporter access or established attacker, use a free Finizen retreat into Tatsugiri; do not pay Energy for this opening search.",
+    "Air Balloon on a benched normal Palafin or Finizen can provide the free return after a legal first switch. One Air Balloon does not grant an extra retreat.",
+    "Evolutionary Guidance should find normal Palafin for a mature backup Finizen when Dragonair evolved this turn and cannot evolve again.",
+    "Check final-prize routes through powered Mega Dragonite, including one exact missing Energy, legal movement, and useful gust. Do not assume three arbitrary Energy pay Water/Lightning/Lightning.",
+    "Do not count a KO through visible Ability damage prevention. Score opposing gust targets separately from our switch pivots.",
+    "An extra Palafin ex in hand may fund a discard cost after two one-Water Palafin ex are built. Spare Mega Dragonite is disposable only when one is built and no Dragonair needs it.",
+    "Read structured attack and switch logs by card ID and Pokemon serial. Retain Giga Impact's next-turn lock across prompts, clear it after a Bench visit or expiry, and respect a currently legal attack.",
+    "Required switch targets must be ranked even when history is incomplete. Never reject every target because the initiating move would now score poorly.",
+    "Before refreshing, defer only for useful executable actions. An estimated Zero to Hero movement count must not independently veto Lillie.",
+    "A large hand can be dead. Use Lillie or Judge when there is no useful pre-refresh action or meaningful legal attack, subject to deck-out and once-per-turn constraints.",
+    "A positive useful option must not be discarded merely because it scores below 500. Pass remains valid when all remaining choices are harmful or unproductive."
+  ],
+  "deck_name": "palfingon",
+  "version": "1.3",
+  "parent_strategy": "Palaking 1.25",
+  "card_variants": {
+    "51": "Palafin TEF 49 / Vanguard Punch",
+    "106": "Palafin TWM 60 / Zero to Hero"
+  }
+}

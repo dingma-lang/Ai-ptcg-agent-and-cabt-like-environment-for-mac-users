@@ -1,0 +1,1 @@
+Deck B strategy goes here. The model must choose legal option indexes only.

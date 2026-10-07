@@ -1,0 +1,305 @@
+Setup
+BorgalaTstar chose tails for the opening coin flip.
+Tristary won the coin toss.
+Tristary decided to go first.
+BorgalaTstar drew 7 cards for the opening hand.
+- 7 drawn cards.
+Tristary drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Palafin ex, Surfing Beach, Dratini, Basic Water Energy, Basic Lightning Energy, Team Rocket's Petrel, Buddy-Buddy Poffin
+BorgalaTstar played Bulbasaur to the Active Spot.
+Tristary played Dratini to the Active Spot.
+
+Tristary's Turn
+Tristary drew Team Rocket's Petrel.
+Tristary played Buddy-Buddy Poffin.
+- Tristary drew 2 cards and played them to the Bench.
+   • Finizen, Tatsugiri
+- Tristary shuffled their deck.
+Tristary attached Basic Lightning Energy to Dratini in the Active Spot.
+Tristary ended their turn.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar played Bug Catching Set.
+- BorgalaTstar shuffled their deck.
+BorgalaTstar attached Basic Grass Energy to Bulbasaur in the Active Spot.
+BorgalaTstar played Lillie's Determination.
+- BorgalaTstar shuffled 4 cards into their deck.
+- BorgalaTstar drew 8 cards.
+BorgalaTstar played Bulbasaur to the Bench.
+BorgalaTstar's Bulbasaur used Bind Down on Tristary’s Dratini for 10 damage.
+
+Tristary's Turn
+Tristary drew Lillie's Determination.
+Tristary attached Basic Water Energy to Finizen on the Bench.
+Tristary played Lillie's Determination.
+- Tristary shuffled 4 cards into their deck.
+   • Palafin ex, Surfing Beach, Team Rocket's Petrel, Team Rocket's Petrel
+- Tristary drew 8 cards.
+   • Basic Water Energy, Lillie's Determination, Hilda, Team Rocket's Petrel, Great Haul Net, Palafin, Basic Water Energy, Team Rocket's Petrel
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary ended their turn.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar played Team Rocket's Petrel.
+- BorgalaTstar drew Precious Trolley.
+- BorgalaTstar shuffled their deck.
+BorgalaTstar played Precious Trolley.
+- BorgalaTstar drew 4 cards and played them to the Bench.
+   • Teal Mask Ogerpon ex, Teal Mask Ogerpon ex, Teal Mask Ogerpon ex, Budew
+- BorgalaTstar shuffled their deck.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar played Bug Catching Set.
+- BorgalaTstar drew Teal Mask Ogerpon ex.
+- BorgalaTstar shuffled their deck.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar attached Basic Grass Energy to Bulbasaur in the Active Spot.
+BorgalaTstar retreated Bulbasaur to the Bench.
+- 2 cards were discarded from BorgalaTstar's Bulbasaur.
+   • Basic Grass Energy, Basic Grass Energy
+BorgalaTstar's Budew is now in the Active Spot.
+BorgalaTstar's Budew used Itchy Pollen on Tristary’s Dratini for 10 damage.
+
+Tristary's Turn
+Tristary drew Lillie's Determination.
+Tristary attached Basic Water Energy to Dratini in the Active Spot.
+Tristary played Lillie's Determination.
+- Tristary shuffled 6 cards into their deck.
+   • Basic Water Energy, Lillie's Determination, Hilda, Team Rocket's Petrel, Great Haul Net, Team Rocket's Petrel
+- Tristary drew 8 cards.
+   • Basic Water Energy, Kieran, Team Rocket's Petrel, Palafin, Dragonair, Team Rocket's Petrel, Basic Water Energy, Team Rocket's Petrel
+Tristary evolved Dratini to Dragonair in the Active Spot.
+Tristary's Dragonair used Evolutionary Guidance.
+- Tristary drew Mega Dragonite ex.
+- Tristary shuffled their deck.
+Tristary retreated Dragonair to the Bench.
+- 2 cards were discarded from Tristary's Dragonair.
+   • Basic Lightning Energy, Basic Water Energy
+Tristary's Tatsugiri is now in the Active Spot.
+Tristary's Tatsugiri used Attract Customers.
+- Tristary drew Boss's Orders.
+- Tristary shuffled their deck.
+Tristary ended their turn.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar evolved Bulbasaur to Ivysaur on the Bench.
+BorgalaTstar played Bug Catching Set.
+- BorgalaTstar drew 2 cards.
+   • Basic Grass Energy, Basic Grass Energy
+- BorgalaTstar shuffled their deck.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar played Team Rocket's Petrel.
+- BorgalaTstar drew Forest of Vitality.
+- BorgalaTstar shuffled their deck.
+BorgalaTstar played Forest of Vitality to the Stadium spot.
+BorgalaTstar retreated Budew to the Bench.
+BorgalaTstar's Ivysaur is now in the Active Spot.
+BorgalaTstar evolved Ivysaur to Mega Venusaur ex in the Active Spot.
+BorgalaTstar's Mega Venusaur ex used Solar Transfer.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+BorgalaTstar's Mega Venusaur ex used Jungle Dump on Tristary’s Tatsugiri for 240 damage.
+Tristary's Tatsugiri was Knocked Out!
+BorgalaTstar took a Prize card.
+A card was added to BorgalaTstar's hand.
+Tristary's Palafin is now in the Active Spot.
+
+Tristary's Turn
+Tristary drew Finizen.
+Tristary played Finizen to the Bench.
+Tristary attached Basic Water Energy to Finizen on the Bench.
+Tristary played Team Rocket's Petrel.
+- Tristary drew Air Balloon.
+- Tristary shuffled their deck.
+Tristary attached Air Balloon to Finizen on the Bench.
+Tristary evolved Dragonair to Mega Dragonite ex on the Bench.
+Tristary's Mega Dragonite ex used Sky Transport.
+- Tristary's Finizen was switched with Tristary's Palafin to become the Active Pokémon.
+Tristary's Finizen is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary retreated Finizen to the Bench.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin ex used Giga Impact on BorgalaTstar’s Mega Venusaur ex for 250 damage.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar's Mega Venusaur ex used Solar Transfer.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+BorgalaTstar played Wally's Compassion.
+- BorgalaTstar's Mega Venusaur ex healed 250 damage.
+BorgalaTstar's Mega Venusaur ex used Solar Transfer.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex in the Active Spot.
+BorgalaTstar's Mega Venusaur ex used Jungle Dump on Tristary’s Palafin ex for 240 damage.
+
+Tristary's Turn
+Tristary drew Buddy-Buddy Poffin.
+Tristary played Buddy-Buddy Poffin.
+- Tristary drew 2 cards and played them to the Bench.
+   • Finizen, Finizen
+- Tristary shuffled their deck.
+Tristary attached Basic Water Energy to Finizen on the Bench.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary played Team Rocket's Petrel.
+- Tristary drew Surfing Beach.
+- Tristary shuffled their deck.
+Tristary played Surfing Beach to the Stadium spot.
+- BorgalaTstar discarded Forest of Vitality.
+Tristary's Mega Dragonite ex used Sky Transport.
+- Tristary's Palafin was switched with Tristary's Palafin ex to become the Active Pokémon.
+Tristary's Palafin is now in the Active Spot.
+Tristary retreated Palafin to the Bench.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary played Surfing Beach.
+- Tristary's Palafin ex was switched with Tristary's Palafin ex to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin ex used Giga Impact on BorgalaTstar’s Mega Venusaur ex for 250 damage.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar played Forest of Vitality to the Stadium spot.
+- Tristary discarded Surfing Beach.
+BorgalaTstar played Boss's Orders.
+- Tristary's Palafin ex was switched with Tristary's Palafin ex to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+BorgalaTstar's Mega Venusaur ex used Jungle Dump on Tristary’s Palafin ex for 240 damage.
+- BorgalaTstar's Mega Venusaur ex healed 30 damage.
+Tristary's Palafin ex was Knocked Out!
+- 2 cards were discarded from Tristary's Palafin ex.
+   • Basic Water Energy, Finizen
+BorgalaTstar took 2 Prize cards.
+A card was added to BorgalaTstar's hand.
+A card was added to BorgalaTstar's hand.
+Tristary's Finizen is now in the Active Spot.
+
+Tristary's Turn
+Tristary drew Hilda.
+Tristary played Hilda.
+- Tristary drew 2 cards.
+   • Palafin, Basic Water Energy
+- Tristary shuffled their deck.
+Tristary attached Basic Water Energy to Finizen on the Bench.
+Tristary evolved Finizen to Palafin in the Active Spot.
+Tristary's Mega Dragonite ex used Sky Transport.
+- Tristary's Palafin ex was switched with Tristary's Palafin to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin used Zero to Hero.
+- Tristary moved Tristary's Palafin ex to the Bench.
+- Tristary moved Tristary's Palafin to their deck.
+- Tristary shuffled their deck.
+Tristary's Palafin ex used Giga Impact on BorgalaTstar’s Mega Venusaur ex for 250 damage.
+BorgalaTstar's Mega Venusaur ex was Knocked Out!
+- 6 cards were discarded from BorgalaTstar's Mega Venusaur ex.
+   • Basic Grass Energy, Basic Grass Energy, Basic Grass Energy, Basic Grass Energy, Ivysaur, Bulbasaur
+Tristary took 3 Prize cards.
+Air Balloon was added to Tristary's hand.
+Mega Dragonite ex was added to Tristary's hand.
+Palafin ex was added to Tristary's hand.
+BorgalaTstar's Budew is now in the Active Spot.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar played Cornerstone Mask Ogerpon ex to the Bench.
+BorgalaTstar retreated Budew to the Bench.
+BorgalaTstar's Cornerstone Mask Ogerpon ex is now in the Active Spot.
+BorgalaTstar played Dawn.
+- BorgalaTstar drew 3 cards.
+   • Meowth ex, Ivysaur, Mega Venusaur ex
+- BorgalaTstar shuffled their deck.
+BorgalaTstar evolved Bulbasaur to Ivysaur on the Bench.
+BorgalaTstar evolved Ivysaur to Mega Venusaur ex on the Bench.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar played Bug Catching Set.
+- BorgalaTstar drew Basic Grass Energy.
+- BorgalaTstar shuffled their deck.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar's Teal Mask Ogerpon ex used Teal Dance.
+- BorgalaTstar attached Basic Grass Energy to Teal Mask Ogerpon ex on the Bench.
+- BorgalaTstar drew a card.
+BorgalaTstar attached Basic Grass Energy to Mega Venusaur ex on the Bench.
+BorgalaTstar's Mega Venusaur ex used Solar Transfer.
+- BorgalaTstar attached Basic Grass Energy to Cornerstone Mask Ogerpon ex in the Active Spot.
+- BorgalaTstar attached Basic Grass Energy to Cornerstone Mask Ogerpon ex in the Active Spot.
+BorgalaTstar ended their turn.
+
+Tristary's Turn
+Tristary drew Poké Pad.
+Tristary played Poké Pad.
+- Tristary drew Palafin.
+- Tristary shuffled their deck.
+Tristary evolved Finizen to Palafin on the Bench.
+Tristary played Boss's Orders.
+- BorgalaTstar's Teal Mask Ogerpon ex was switched with BorgalaTstar's Cornerstone Mask Ogerpon ex to become the Active Pokémon.
+BorgalaTstar's Teal Mask Ogerpon ex is now in the Active Spot.
+Tristary retreated Palafin ex to the Bench.
+Tristary's Palafin ex is now in the Active Spot.
+Tristary's Palafin ex used Giga Impact on BorgalaTstar’s Teal Mask Ogerpon ex for 250 damage.
+BorgalaTstar's Teal Mask Ogerpon ex was Knocked Out!
+Basic Grass Energy was discarded from BorgalaTstar's Teal Mask Ogerpon ex.
+Tristary took 2 Prize cards.
+Basic Lightning Energy was added to Tristary's hand.
+Secret Box was added to Tristary's hand.
+BorgalaTstar's Cornerstone Mask Ogerpon ex is now in the Active Spot.
+
+BorgalaTstar's Turn
+BorgalaTstar drew a card.
+BorgalaTstar played Meowth ex to the Bench.
+BorgalaTstar's Meowth ex used Last-Ditch Catch.
+- BorgalaTstar drew Lillie's Determination.
+- BorgalaTstar shuffled their deck.
+BorgalaTstar played Lillie's Determination.
+- BorgalaTstar shuffled 6 cards into their deck.
+- BorgalaTstar drew 6 cards.
+BorgalaTstar attached Basic Fighting Energy to Cornerstone Mask Ogerpon ex in the Active Spot.
+BorgalaTstar's Cornerstone Mask Ogerpon ex used Demolish on Tristary’s Palafin ex for 140 damage.
+
+Tristary's Turn
+Tristary drew Switch.
+Tristary played Secret Box.
+- Tristary discarded 3 cards.
+   • Palafin ex, Mega Dragonite ex, Team Rocket's Petrel
+- Tristary drew 3 cards.
+   • Night Stretcher, Boss's Orders, Surfing Beach
+- Tristary shuffled their deck.
+Tristary attached Basic Lightning Energy to Mega Dragonite ex on the Bench.
+Tristary played Boss's Orders.
+- BorgalaTstar's Teal Mask Ogerpon ex was switched with BorgalaTstar's Cornerstone Mask Ogerpon ex to become the Active Pokémon.
+BorgalaTstar's Teal Mask Ogerpon ex is now in the Active Spot.
+Tristary's Mega Dragonite ex used Sky Transport.
+- Tristary's Palafin ex was switched with Tristary's Palafin ex to become the Active Pokémon.
+Tristary's Palafin ex is now in the Active Spot.
+Opponent conceded. Tristary wins.
+

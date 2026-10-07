@@ -1,0 +1,1003 @@
+{
+  "deck_name": "Palafin ex / Mega Dragonite ex",
+  "nodes": [
+    {
+      "id": "Finizen",
+      "count": 4,
+      "roles": [
+        "setup_basic"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Mega Dragonite ex",
+      "count": 2,
+      "roles": [
+        "secondary_attacker",
+        "switch_engine",
+        "evolution_target"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Dratini",
+      "count": 2,
+      "roles": [
+        "setup_basic"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Dragonair",
+      "count": 2,
+      "roles": [
+        "evolution_bridge",
+        "search_card"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Palafin ex",
+      "count": 4,
+      "roles": [
+        "main_attacker",
+        "evolution_target"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Palafin",
+      "count": 3,
+      "roles": [
+        "evolution_bridge",
+        "switch_engine"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Tatsugiri",
+      "count": 1,
+      "roles": [
+        "support_pokemon",
+        "pivot",
+        "setup_basic"
+      ],
+      "card_type": "Pokemon"
+    },
+    {
+      "id": "Buddy-Buddy Poffin",
+      "count": 4,
+      "roles": [
+        "search_card"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Lillie's Determination",
+      "count": 4,
+      "roles": [
+        "broad_draw"
+      ],
+      "card_type": "Supporter"
+    },
+    {
+      "id": "Secret Box",
+      "count": 1,
+      "roles": [
+        "ace_spec",
+        "search_card"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Energy Retrieval",
+      "count": 1,
+      "roles": [
+        "energy_recovery"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Poke Pad",
+      "count": 4,
+      "roles": [
+        "search_card"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Switch",
+      "count": 1,
+      "roles": [
+        "switch_engine"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Sacred Ash",
+      "count": 1,
+      "roles": [
+        "pokemon_recovery"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Boss's Orders",
+      "count": 2,
+      "roles": [
+        "gust"
+      ],
+      "card_type": "Supporter"
+    },
+    {
+      "id": "Night Stretcher",
+      "count": 1,
+      "roles": [
+        "pokemon_recovery",
+        "energy_recovery"
+      ],
+      "card_type": "Item"
+    },
+    {
+      "id": "Crispin",
+      "count": 2,
+      "roles": [
+        "energy_acceleration"
+      ],
+      "card_type": "Supporter"
+    },
+    {
+      "id": "Surfing Beach",
+      "count": 3,
+      "roles": [
+        "switch_engine",
+        "stadium"
+      ],
+      "card_type": "Stadium"
+    },
+    {
+      "id": "Hilda",
+      "count": 1,
+      "roles": [
+        "search_card",
+        "energy_acceleration"
+      ],
+      "card_type": "Supporter"
+    },
+    {
+      "id": "Team Rocket's Petrel",
+      "count": 4,
+      "roles": [
+        "exact_trainer_search",
+        "search_card"
+      ],
+      "card_type": "Supporter"
+    },
+    {
+      "id": "Air Balloon",
+      "count": 2,
+      "roles": [
+        "switch_engine",
+        "pivot"
+      ],
+      "card_type": "Tool"
+    },
+    {
+      "id": "Kieran",
+      "count": 1,
+      "roles": [
+        "switch_engine",
+        "damage_modifier"
+      ],
+      "card_type": "Supporter"
+    },
+    {
+      "id": "Basic Water Energy",
+      "count": 7,
+      "roles": [
+        "resource_card"
+      ],
+      "card_type": "Basic Energy"
+    },
+    {
+      "id": "Basic Lightning Energy",
+      "count": 3,
+      "roles": [
+        "resource_card"
+      ],
+      "card_type": "Basic Energy"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Finizen",
+      "target": "Palafin",
+      "relationship": "evolves_into",
+      "weight": 100,
+      "condition": "",
+      "reason": "Finizen must become Palafin before Zero to Hero."
+    },
+    {
+      "source": "Palafin",
+      "target": "Palafin ex",
+      "relationship": "enables_zero_to_hero",
+      "weight": 100,
+      "condition": "",
+      "reason": "Moving Palafin from Active to Bench puts Palafin ex into play."
+    },
+    {
+      "source": "Dratini",
+      "target": "Dragonair",
+      "relationship": "evolves_into",
+      "weight": 80,
+      "condition": "",
+      "reason": "Dratini is the Basic for Dragonair."
+    },
+    {
+      "source": "Dragonair",
+      "target": "Mega Dragonite ex",
+      "relationship": "evolves_into",
+      "weight": 90,
+      "condition": "",
+      "reason": "Dragonair becomes the switch engine and late closer."
+    },
+    {
+      "source": "Buddy-Buddy Poffin",
+      "target": "Finizen",
+      "relationship": "searches",
+      "weight": 100,
+      "condition": "Bench has room and Finizen count is low.",
+      "reason": "Finizen is the required Basic for the Palafin ex engine."
+    },
+    {
+      "source": "Buddy-Buddy Poffin",
+      "target": "Tatsugiri",
+      "relationship": "searches",
+      "weight": 75,
+      "condition": "Bench has room and support access is needed.",
+      "reason": "Tatsugiri provides Supporter access and pivot value."
+    },
+    {
+      "source": "Buddy-Buddy Poffin",
+      "target": "Dratini",
+      "relationship": "should_not_target",
+      "weight": -100,
+      "condition": "",
+      "reason": "Dratini has more than 70 HP in local competition metadata."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Finizen",
+      "relationship": "searches",
+      "weight": 65,
+      "condition": "",
+      "reason": "Poke Pad can find non-Rule Box Pokemon such as Finizen."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Palafin",
+      "relationship": "searches",
+      "weight": 78,
+      "condition": "",
+      "reason": "Poke Pad can find non-Rule Box Pokemon such as Palafin."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Dragonair",
+      "relationship": "searches",
+      "weight": 65,
+      "condition": "",
+      "reason": "Poke Pad can find non-Rule Box Pokemon such as Dragonair."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Tatsugiri",
+      "relationship": "searches",
+      "weight": 65,
+      "condition": "",
+      "reason": "Poke Pad can find non-Rule Box Pokemon such as Tatsugiri."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Dratini",
+      "relationship": "finds_evolution_piece",
+      "weight": 72,
+      "condition": "",
+      "reason": "Poke Pad is the route to Dratini because Dratini is not Poffin-eligible when HP is 80."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Palafin ex",
+      "relationship": "should_not_target",
+      "weight": -100,
+      "condition": "",
+      "reason": "Palafin ex has a Rule Box and should stay in deck for Zero to Hero."
+    },
+    {
+      "source": "Poke Pad",
+      "target": "Mega Dragonite ex",
+      "relationship": "should_not_target",
+      "weight": -80,
+      "condition": "",
+      "reason": "Mega Dragonite ex has a Rule Box; use Hilda/Dragonair style evolution search instead."
+    },
+    {
+      "source": "Hilda",
+      "target": "Palafin",
+      "relationship": "finds_evolution_piece",
+      "weight": 88,
+      "condition": "",
+      "reason": "Hilda can find Palafin when Finizen is ready."
+    },
+    {
+      "source": "Hilda",
+      "target": "Basic Water Energy",
+      "relationship": "provides_energy",
+      "weight": 84,
+      "condition": "",
+      "reason": "Hilda can pair Palafin with Water Energy."
+    },
+    {
+      "source": "Hilda",
+      "target": "Dragonair",
+      "relationship": "finds_evolution_piece",
+      "weight": 82,
+      "condition": "",
+      "reason": "Hilda can find Dragonair when Dratini is in play."
+    },
+    {
+      "source": "Hilda",
+      "target": "Mega Dragonite ex",
+      "relationship": "finds_evolution_piece",
+      "weight": 88,
+      "condition": "",
+      "reason": "Hilda can find Mega Dragonite ex when Dragonair is ready."
+    },
+    {
+      "source": "Hilda",
+      "target": "Basic Lightning Energy",
+      "relationship": "provides_energy",
+      "weight": 86,
+      "condition": "",
+      "reason": "Hilda can pair Dragonite line evolution with Lightning Energy."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Buddy-Buddy Poffin",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Buddy-Buddy Poffin when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Poke Pad",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Poke Pad when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Surfing Beach",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Surfing Beach when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Switch",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Switch when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Secret Box",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Secret Box when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Air Balloon",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Air Balloon when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Energy Retrieval",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Energy Retrieval when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Night Stretcher",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Night Stretcher when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Sacred Ash",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Sacred Ash when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Boss's Orders",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Boss's Orders when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Kieran",
+      "relationship": "finds_exact_trainer",
+      "weight": 82,
+      "condition": "",
+      "reason": "Petrel can get exact Trainer Kieran when that card solves the turn."
+    },
+    {
+      "source": "Team Rocket's Petrel",
+      "target": "Buddy-Buddy Poffin",
+      "relationship": "should_not_target",
+      "weight": -40,
+      "condition": "",
+      "reason": "Do not Petrel for Poffin when Poffin is already in hand."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Buddy-Buddy Poffin",
+      "relationship": "finds_exact_trainer",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Poke Pad",
+      "relationship": "finds_exact_trainer",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Switch",
+      "relationship": "finds_exact_trainer",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Air Balloon",
+      "relationship": "finds_tool",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Hilda",
+      "relationship": "finds_supporter",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Lillie's Determination",
+      "relationship": "finds_supporter",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Team Rocket's Petrel",
+      "relationship": "finds_supporter",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Crispin",
+      "relationship": "finds_supporter",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Secret Box",
+      "target": "Surfing Beach",
+      "relationship": "finds_stadium",
+      "weight": 76,
+      "condition": "Discard 3 safe cards.",
+      "reason": "Secret Box builds Item + Tool + Supporter + Stadium setup packages."
+    },
+    {
+      "source": "Surfing Beach",
+      "target": "Palafin",
+      "relationship": "enables_zero_to_hero",
+      "weight": 100,
+      "condition": "",
+      "reason": "Surfing Beach moves Palafin from Active to Bench."
+    },
+    {
+      "source": "Surfing Beach",
+      "target": "Palafin ex",
+      "relationship": "resets_attack_restriction",
+      "weight": 92,
+      "condition": "",
+      "reason": "Surfing Beach helps reset or rotate after Giga Impact."
+    },
+    {
+      "source": "Switch",
+      "target": "Palafin",
+      "relationship": "enables_zero_to_hero",
+      "weight": 88,
+      "condition": "",
+      "reason": "Switch moves Palafin from Active to Bench."
+    },
+    {
+      "source": "Switch",
+      "target": "Palafin ex",
+      "relationship": "resets_attack_restriction",
+      "weight": 92,
+      "condition": "",
+      "reason": "Switch helps reset or rotate after Giga Impact."
+    },
+    {
+      "source": "Kieran",
+      "target": "Palafin",
+      "relationship": "enables_zero_to_hero",
+      "weight": 88,
+      "condition": "",
+      "reason": "Kieran moves Palafin from Active to Bench."
+    },
+    {
+      "source": "Kieran",
+      "target": "Palafin ex",
+      "relationship": "resets_attack_restriction",
+      "weight": 92,
+      "condition": "",
+      "reason": "Kieran helps reset or rotate after Giga Impact."
+    },
+    {
+      "source": "Air Balloon",
+      "target": "Palafin",
+      "relationship": "enables_zero_to_hero",
+      "weight": 88,
+      "condition": "",
+      "reason": "Air Balloon moves Palafin from Active to Bench."
+    },
+    {
+      "source": "Air Balloon",
+      "target": "Palafin ex",
+      "relationship": "resets_attack_restriction",
+      "weight": 92,
+      "condition": "",
+      "reason": "Air Balloon helps reset or rotate after Giga Impact."
+    },
+    {
+      "source": "Mega Dragonite ex",
+      "target": "Palafin",
+      "relationship": "enables_zero_to_hero",
+      "weight": 88,
+      "condition": "",
+      "reason": "Mega Dragonite ex moves Palafin from Active to Bench."
+    },
+    {
+      "source": "Mega Dragonite ex",
+      "target": "Palafin ex",
+      "relationship": "resets_attack_restriction",
+      "weight": 92,
+      "condition": "",
+      "reason": "Mega Dragonite ex helps reset or rotate after Giga Impact."
+    },
+    {
+      "source": "Kieran",
+      "target": "Palafin ex",
+      "relationship": "improves_damage_math",
+      "weight": 70,
+      "condition": "",
+      "reason": "Kieran's +30 mode matters only when it changes KO math."
+    },
+    {
+      "source": "Basic Water Energy",
+      "target": "Palafin ex",
+      "relationship": "enables_attack",
+      "weight": 100,
+      "condition": "",
+      "reason": "Palafin ex attacks for one Water Energy."
+    },
+    {
+      "source": "Basic Water Energy",
+      "target": "Mega Dragonite ex",
+      "relationship": "enables_attack",
+      "weight": 55,
+      "condition": "",
+      "reason": "Mega Dragonite also needs Water for its attack."
+    },
+    {
+      "source": "Basic Lightning Energy",
+      "target": "Mega Dragonite ex",
+      "relationship": "enables_attack",
+      "weight": 100,
+      "condition": "",
+      "reason": "Mega Dragonite needs scarce Lightning Energy."
+    },
+    {
+      "source": "Basic Lightning Energy",
+      "target": "Palafin ex",
+      "relationship": "should_not_target",
+      "weight": -100,
+      "condition": "",
+      "reason": "Lightning Energy is protected for Mega Dragonite ex."
+    },
+    {
+      "source": "Crispin",
+      "target": "Mega Dragonite ex",
+      "relationship": "provides_energy",
+      "weight": 90,
+      "condition": "",
+      "reason": "Crispin fixes Water + Lightning for Mega Dragonite ex."
+    },
+    {
+      "source": "Crispin",
+      "target": "Palafin ex",
+      "relationship": "provides_energy",
+      "weight": 40,
+      "condition": "",
+      "reason": "Crispin can provide Water, but Palafin usually needs only one manual Water."
+    },
+    {
+      "source": "Energy Retrieval",
+      "target": "Basic Water Energy",
+      "relationship": "recovers_energy",
+      "weight": 70,
+      "condition": "",
+      "reason": "Energy Retrieval recovers Palafin attack fuel."
+    },
+    {
+      "source": "Energy Retrieval",
+      "target": "Basic Lightning Energy",
+      "relationship": "recovers_energy",
+      "weight": 78,
+      "condition": "",
+      "reason": "Energy Retrieval recovers scarce Dragonite Energy."
+    },
+    {
+      "source": "Night Stretcher",
+      "target": "Palafin",
+      "relationship": "recovers_pokemon",
+      "weight": 70,
+      "condition": "",
+      "reason": "Night Stretcher gets exact missing Pokemon or Basic Energy from discard."
+    },
+    {
+      "source": "Night Stretcher",
+      "target": "Basic Lightning Energy",
+      "relationship": "recovers_energy",
+      "weight": 75,
+      "condition": "",
+      "reason": "Night Stretcher can recover exact Lightning Energy."
+    },
+    {
+      "source": "Sacred Ash",
+      "target": "Finizen",
+      "relationship": "recovers_pokemon",
+      "weight": 68,
+      "condition": "",
+      "reason": "Sacred Ash restores lost Pokemon lines when several pieces are in discard."
+    },
+    {
+      "source": "Sacred Ash",
+      "target": "Palafin",
+      "relationship": "recovers_pokemon",
+      "weight": 68,
+      "condition": "",
+      "reason": "Sacred Ash restores lost Pokemon lines when several pieces are in discard."
+    },
+    {
+      "source": "Sacred Ash",
+      "target": "Palafin ex",
+      "relationship": "recovers_pokemon",
+      "weight": 68,
+      "condition": "",
+      "reason": "Sacred Ash restores lost Pokemon lines when several pieces are in discard."
+    },
+    {
+      "source": "Sacred Ash",
+      "target": "Dratini",
+      "relationship": "recovers_pokemon",
+      "weight": 68,
+      "condition": "",
+      "reason": "Sacred Ash restores lost Pokemon lines when several pieces are in discard."
+    },
+    {
+      "source": "Sacred Ash",
+      "target": "Dragonair",
+      "relationship": "recovers_pokemon",
+      "weight": 68,
+      "condition": "",
+      "reason": "Sacred Ash restores lost Pokemon lines when several pieces are in discard."
+    },
+    {
+      "source": "Sacred Ash",
+      "target": "Mega Dragonite ex",
+      "relationship": "recovers_pokemon",
+      "weight": 68,
+      "condition": "",
+      "reason": "Sacred Ash restores lost Pokemon lines when several pieces are in discard."
+    },
+    {
+      "source": "Boss's Orders",
+      "target": "Palafin ex",
+      "relationship": "improves_damage_math",
+      "weight": 86,
+      "condition": "",
+      "reason": "Boss enables Palafin ex to take prize-route KOs."
+    },
+    {
+      "source": "Boss's Orders",
+      "target": "Mega Dragonite ex",
+      "relationship": "improves_damage_math",
+      "weight": 82,
+      "condition": "",
+      "reason": "Boss enables Mega Dragonite ex to close on high-HP targets."
+    },
+    {
+      "source": "Lillie's Determination",
+      "target": "Hand",
+      "relationship": "fixes_hand",
+      "weight": 65,
+      "condition": "",
+      "reason": "Lillie refreshes weak hands after exact setup actions are used."
+    },
+    {
+      "source": "Palafin ex",
+      "target": "Palafin ex",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Palafin ex is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Mega Dragonite ex",
+      "target": "Mega Dragonite ex",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Mega Dragonite ex is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Finizen",
+      "target": "Finizen",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Finizen is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Palafin",
+      "target": "Palafin",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Palafin is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Dratini",
+      "target": "Dratini",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Dratini is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Dragonair",
+      "target": "Dragonair",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Dragonair is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Basic Lightning Energy",
+      "target": "Basic Lightning Energy",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Basic Lightning Energy is protected unless recovery or payoff is clear."
+    },
+    {
+      "source": "Surfing Beach",
+      "target": "Surfing Beach",
+      "relationship": "should_not_discard",
+      "weight": -90,
+      "condition": "",
+      "reason": "Surfing Beach is protected unless recovery or payoff is clear."
+    }
+  ],
+  "policy_rules": [
+    {
+      "rule_name": "Poffin before Lillie",
+      "condition": [
+        "Buddy-Buddy Poffin in hand",
+        "Bench not full",
+        "Finizen count < 2"
+      ],
+      "action_preference": "Play Buddy-Buddy Poffin.",
+      "priority": 6500,
+      "reason": "Poffin searches Finizen/Tatsugiri and should establish the Bench before broad refresh.",
+      "forbidden_actions": [
+        "Play Lillie's Determination before Poffin"
+      ]
+    },
+    {
+      "rule_name": "Poke Pad for Palafin",
+      "condition": [
+        "Finizen in play",
+        "Palafin missing",
+        "Poke Pad legal"
+      ],
+      "action_preference": "Use Poke Pad for Palafin.",
+      "priority": 5500,
+      "reason": "Palafin is the Zero to Hero bridge and is non-Rule Box.",
+      "forbidden_actions": [
+        "Use Poke Pad for Palafin ex"
+      ]
+    },
+    {
+      "rule_name": "Zero to Hero",
+      "condition": [
+        "Palafin Active",
+        "Switch effect legal",
+        "Palafin ex available"
+      ],
+      "action_preference": "Move Palafin to Bench and trigger Zero to Hero.",
+      "priority": 8000,
+      "reason": "Palafin ex enters play through Palafin moving from Active to Bench.",
+      "forbidden_actions": [
+        "Attack with Palafin instead of enabling Zero to Hero"
+      ]
+    },
+    {
+      "rule_name": "Water to Palafin ex",
+      "condition": [
+        "Palafin ex in play",
+        "Water Energy in hand",
+        "Palafin ex has no Energy"
+      ],
+      "action_preference": "Attach Basic Water Energy to Palafin ex.",
+      "priority": 6500,
+      "reason": "Palafin ex attacks for one Water and should not be overattached.",
+      "forbidden_actions": [
+        "Attach extra Energy to Palafin ex",
+        "Attach Lightning to Palafin ex"
+      ]
+    },
+    {
+      "rule_name": "Protect Lightning",
+      "condition": [
+        "Lightning Energy in hand",
+        "Dragonite line exists or may exist"
+      ],
+      "action_preference": "Attach Lightning only to Dratini, Dragonair, or Mega Dragonite ex.",
+      "priority": 6000,
+      "reason": "Lightning Energy is scarce and required for Mega Dragonite ex.",
+      "forbidden_actions": [
+        "Lightning to Palafin",
+        "Lightning to Finizen",
+        "Lightning to Tatsugiri"
+      ]
+    },
+    {
+      "rule_name": "Surfing Beach switch loop",
+      "condition": [
+        "Surfing Beach legal",
+        "Palafin/Palafin ex switching needed"
+      ],
+      "action_preference": "Play or use Surfing Beach.",
+      "priority": 6000,
+      "reason": "Surfing Beach enables Zero to Hero and resets Palafin ex after Giga Impact.",
+      "forbidden_actions": [
+        "Replace own useful Surfing Beach without reason"
+      ]
+    },
+    {
+      "rule_name": "Hilda package",
+      "condition": [
+        "Need Evolution plus Energy",
+        "Hilda legal"
+      ],
+      "action_preference": "Use Hilda for Palafin + Water, Dragonair + Lightning, or Mega Dragonite ex + Lightning.",
+      "priority": 5000,
+      "reason": "Hilda solves paired evolution/energy needs but not missing Basics.",
+      "forbidden_actions": [
+        "Use Hilda when missing Basic Finizen or Dratini"
+      ]
+    },
+    {
+      "rule_name": "Crispin Dragonite energy",
+      "condition": [
+        "Dragonite line needs mixed Energy",
+        "Crispin legal"
+      ],
+      "action_preference": "Use Crispin for Water + Lightning or Lightning acceleration.",
+      "priority": 5500,
+      "reason": "Mega Dragonite ex needs Water plus two Lightning.",
+      "forbidden_actions": [
+        "Spend Crispin when no attacker can use the Energy"
+      ]
+    },
+    {
+      "rule_name": "Boss/Kieran KO math",
+      "condition": [
+        "Boss or Kieran creates KO or final prize"
+      ],
+      "action_preference": "Use Boss/Kieran line.",
+      "priority": 7000,
+      "reason": "Prize-route cards should be used only when they change KO math or win path.",
+      "forbidden_actions": [
+        "Boss without KO/prize benefit",
+        "Kieran damage mode without changing KO math"
+      ]
+    },
+    {
+      "rule_name": "Bench Basic from hand",
+      "condition": [
+        "Basic Pokemon in hand",
+        "Bench space exists"
+      ],
+      "action_preference": "Bench the Basic before Supporter, setup Ability, attack, or end turn.",
+      "priority": 7200,
+      "reason": "Known Basics in hand are guaranteed setup and should not be shuffled away or skipped.",
+      "forbidden_actions": [
+        "End turn with playable Basic in hand",
+        "Lillie before benching Basic"
+      ]
+    },
+    {
+      "rule_name": "Air Balloon active Palafin",
+      "condition": [
+        "Air Balloon legal",
+        "Active Palafin evolution chain needs to retreat"
+      ],
+      "action_preference": "Attach Air Balloon to active Palafin for Zero to Hero, locked Palafin ex for reset, or Tatsugiri for Dragonite pivot reset.",
+      "priority": 5200,
+      "reason": "Air Balloon is designed for the Palafin loop and Tatsugiri Dragonite pivot, not random attachment.",
+      "forbidden_actions": [
+        "Attach Air Balloon randomly"
+      ]
+    },
+    {
+      "rule_name": "Lightning protected resource",
+      "condition": [
+        "Basic Lightning Energy visible"
+      ],
+      "action_preference": "Protect Lightning for Mega Dragonite ex.",
+      "priority": 6000,
+      "reason": "Analysis marks Lightning as protected for Dragonite.",
+      "forbidden_actions": [
+        "Discard Lightning without recovery",
+        "Attach Lightning to Palafin line"
+      ]
+    }
+  ]
+}
